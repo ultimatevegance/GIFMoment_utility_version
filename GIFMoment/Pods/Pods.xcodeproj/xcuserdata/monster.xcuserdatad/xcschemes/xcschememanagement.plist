@@ -4,25 +4,29 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>GIFMoment 2.xcscheme</key>
+		<key>FoldingTabBar.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
-			<integer>3</integer>
+			<integer>1</integer>
+		</dict>
+		<key>Pods.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>2</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>8D49B2191D19395B00719725</key>
+		<key>9A9671991FC07F784B9A014916B59D18</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8D49B2321D19395B00719725</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>8D49B23D1D19395B00719725</key>
+		<key>F71BAD3AB1E85C78D594828526C960A9</key>
 		<dict>
 			<key>primary</key>
 			<true/>

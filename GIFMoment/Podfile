@@ -1,4 +1,4 @@
 platform :ios, '8.0'
 
-
+pod 'FoldingTabBar', '~> 1.0.3'
 

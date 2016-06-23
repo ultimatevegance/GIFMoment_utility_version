@@ -14,6 +14,16 @@
 		8D49B22D1D19395B00719725 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D49B22B1D19395B00719725 /* LaunchScreen.storyboard */; };
 		8D49B2381D19395B00719725 /* GIFMomentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D49B2371D19395B00719725 /* GIFMomentTests.m */; };
 		8D49B2431D19395B00719725 /* GIFMomentUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D49B2421D19395B00719725 /* GIFMomentUITests.m */; };
+		8DD555DB1D1BCE8800DB8606 /* PreviewAndEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD555D91D1BCE8800DB8606 /* PreviewAndEditViewController.m */; };
+		8DD555DC1D1BCE8800DB8606 /* PreviewAndEditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DD555DA1D1BCE8800DB8606 /* PreviewAndEditViewController.xib */; };
+		8DD555E01D1BCEAD00DB8606 /* CaptureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD555DE1D1BCEAD00DB8606 /* CaptureViewController.m */; };
+		8DD555E11D1BCEAD00DB8606 /* CaptureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DD555DF1D1BCEAD00DB8606 /* CaptureViewController.xib */; };
+		8DD555E51D1BCF1B00DB8606 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD555E31D1BCF1B00DB8606 /* MainViewController.m */; };
+		8DD555E61D1BCF1B00DB8606 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DD555E41D1BCF1B00DB8606 /* MainViewController.xib */; };
+		8DD555EF1D1BD3B000DB8606 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD555ED1D1BD3B000DB8606 /* SettingViewController.m */; };
+		8DD555F01D1BD3B000DB8606 /* SettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DD555EE1D1BD3B000DB8606 /* SettingViewController.xib */; };
+		8DD555F31D1BEBD000DB8606 /* MTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD555F21D1BEBD000DB8606 /* MTabViewController.m */; };
+		B5123099C77051F4BDB642A6 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6350FC2734953ED5CBDA34F7 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2940110E592B6710FE11DE22 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		6350FC2734953ED5CBDA34F7 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D49B21A1D19395B00719725 /* GIFMoment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GIFMoment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D49B21E1D19395B00719725 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8D49B2201D19395B00719725 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -48,6 +60,21 @@
 		8D49B23E1D19395B00719725 /* GIFMomentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GIFMomentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D49B2421D19395B00719725 /* GIFMomentUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GIFMomentUITests.m; sourceTree = "<group>"; };
 		8D49B2441D19395B00719725 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DD555D81D1BCE8800DB8606 /* PreviewAndEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreviewAndEditViewController.h; sourceTree = "<group>"; };
+		8DD555D91D1BCE8800DB8606 /* PreviewAndEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreviewAndEditViewController.m; sourceTree = "<group>"; };
+		8DD555DA1D1BCE8800DB8606 /* PreviewAndEditViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PreviewAndEditViewController.xib; sourceTree = "<group>"; };
+		8DD555DD1D1BCEAD00DB8606 /* CaptureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaptureViewController.h; sourceTree = "<group>"; };
+		8DD555DE1D1BCEAD00DB8606 /* CaptureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaptureViewController.m; sourceTree = "<group>"; };
+		8DD555DF1D1BCEAD00DB8606 /* CaptureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CaptureViewController.xib; sourceTree = "<group>"; };
+		8DD555E21D1BCF1B00DB8606 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		8DD555E31D1BCF1B00DB8606 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		8DD555E41D1BCF1B00DB8606 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		8DD555EC1D1BD3B000DB8606 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		8DD555ED1D1BD3B000DB8606 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		8DD555EE1D1BD3B000DB8606 /* SettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingViewController.xib; sourceTree = "<group>"; };
+		8DD555F11D1BEBD000DB8606 /* MTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTabViewController.h; sourceTree = "<group>"; };
+		8DD555F21D1BEBD000DB8606 /* MTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTabViewController.m; sourceTree = "<group>"; };
+		AC2C29AF52BF1DBE26CCFC0D /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5123099C77051F4BDB642A6 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +110,8 @@
 				8D49B2361D19395B00719725 /* GIFMomentTests */,
 				8D49B2411D19395B00719725 /* GIFMomentUITests */,
 				8D49B21B1D19395B00719725 /* Products */,
+				A12104A13A19F64F31B61301 /* Pods */,
+				E51A539769836383B90E543F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,6 +128,7 @@
 		8D49B21C1D19395B00719725 /* GIFMoment */ = {
 			isa = PBXGroup;
 			children = (
+				8DD555EA1D1BD25B00DB8606 /* WalkThrough */,
 				8D49B2531D193AD500719725 /* lib */,
 				8D49B2521D193ACA00719725 /* Views */,
 				8D49B2511D193ABA00719725 /* Models */,
@@ -142,6 +173,10 @@
 		8D49B2501D193AA200719725 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				8DD555D71D1BCE2600DB8606 /* PreviewAndEdit */,
+				8DD555D61D1BCDE000DB8606 /* Setting */,
+				8DD555D51D1BCDC900DB8606 /* Capture */,
+				8DD555D41D1BCDAA00DB8606 /* Main */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -167,6 +202,72 @@
 			name = lib;
 			sourceTree = "<group>";
 		};
+		8DD555D41D1BCDAA00DB8606 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				8DD555E21D1BCF1B00DB8606 /* MainViewController.h */,
+				8DD555E31D1BCF1B00DB8606 /* MainViewController.m */,
+				8DD555E41D1BCF1B00DB8606 /* MainViewController.xib */,
+				8DD555F11D1BEBD000DB8606 /* MTabViewController.h */,
+				8DD555F21D1BEBD000DB8606 /* MTabViewController.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		8DD555D51D1BCDC900DB8606 /* Capture */ = {
+			isa = PBXGroup;
+			children = (
+				8DD555DD1D1BCEAD00DB8606 /* CaptureViewController.h */,
+				8DD555DE1D1BCEAD00DB8606 /* CaptureViewController.m */,
+				8DD555DF1D1BCEAD00DB8606 /* CaptureViewController.xib */,
+			);
+			name = Capture;
+			sourceTree = "<group>";
+		};
+		8DD555D61D1BCDE000DB8606 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				8DD555EC1D1BD3B000DB8606 /* SettingViewController.h */,
+				8DD555ED1D1BD3B000DB8606 /* SettingViewController.m */,
+				8DD555EE1D1BD3B000DB8606 /* SettingViewController.xib */,
+			);
+			name = Setting;
+			sourceTree = "<group>";
+		};
+		8DD555D71D1BCE2600DB8606 /* PreviewAndEdit */ = {
+			isa = PBXGroup;
+			children = (
+				8DD555D81D1BCE8800DB8606 /* PreviewAndEditViewController.h */,
+				8DD555D91D1BCE8800DB8606 /* PreviewAndEditViewController.m */,
+				8DD555DA1D1BCE8800DB8606 /* PreviewAndEditViewController.xib */,
+			);
+			name = PreviewAndEdit;
+			sourceTree = "<group>";
+		};
+		8DD555EA1D1BD25B00DB8606 /* WalkThrough */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = WalkThrough;
+			sourceTree = "<group>";
+		};
+		A12104A13A19F64F31B61301 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2940110E592B6710FE11DE22 /* Pods.debug.xcconfig */,
+				AC2C29AF52BF1DBE26CCFC0D /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E51A539769836383B90E543F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6350FC2734953ED5CBDA34F7 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -174,9 +275,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8D49B2471D19395B00719725 /* Build configuration list for PBXNativeTarget "GIFMoment" */;
 			buildPhases = (
+				AC49472202545766CC872677 /* Check Pods Manifest.lock */,
 				8D49B2161D19395B00719725 /* Sources */,
 				8D49B2171D19395B00719725 /* Frameworks */,
 				8D49B2181D19395B00719725 /* Resources */,
+				8A9A74CA53093D706D5D7CF9 /* Embed Pods Frameworks */,
+				E5176E2853889B0FE5A8178A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -270,8 +374,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DD555F01D1BD3B000DB8606 /* SettingViewController.xib in Resources */,
+				8DD555E11D1BCEAD00DB8606 /* CaptureViewController.xib in Resources */,
+				8DD555E61D1BCF1B00DB8606 /* MainViewController.xib in Resources */,
 				8D49B22D1D19395B00719725 /* LaunchScreen.storyboard in Resources */,
 				8D49B22A1D19395B00719725 /* Assets.xcassets in Resources */,
+				8DD555DC1D1BCE8800DB8606 /* PreviewAndEditViewController.xib in Resources */,
 				8D49B2281D19395B00719725 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,13 +400,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8A9A74CA53093D706D5D7CF9 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC49472202545766CC872677 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E5176E2853889B0FE5A8178A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8D49B2161D19395B00719725 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DD555DB1D1BCE8800DB8606 /* PreviewAndEditViewController.m in Sources */,
+				8DD555E01D1BCEAD00DB8606 /* CaptureViewController.m in Sources */,
+				8DD555F31D1BEBD000DB8606 /* MTabViewController.m in Sources */,
 				8D49B2221D19395B00719725 /* AppDelegate.m in Sources */,
+				8DD555E51D1BCF1B00DB8606 /* MainViewController.m in Sources */,
 				8D49B21F1D19395B00719725 /* main.m in Sources */,
+				8DD555EF1D1BD3B000DB8606 /* SettingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,23 +600,27 @@
 		};
 		8D49B2481D19395B00719725 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2940110E592B6710FE11DE22 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GIFMoment/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.monstertechstudio.GIFMoment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 			};
 			name = Debug;
 		};
 		8D49B2491D19395B00719725 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC2C29AF52BF1DBE26CCFC0D /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GIFMoment/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.monstertechstudio.GIFMoment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 			};
 			name = Release;
 		};
@@ -524,6 +689,7 @@
 				8D49B2491D19395B00719725 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8D49B24A1D19395B00719725 /* Build configuration list for PBXNativeTarget "GIFMomentTests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +698,7 @@
 				8D49B24C1D19395B00719725 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8D49B24D1D19395B00719725 /* Build configuration list for PBXNativeTarget "GIFMomentUITests" */ = {
 			isa = XCConfigurationList;
@@ -540,6 +707,7 @@
 				8D49B24F1D19395B00719725 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
