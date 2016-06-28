@@ -20,22 +20,27 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    
+    //initial tabbar and set it as RootViewContorller
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen ].bounds];
     [self.window makeKeyAndVisible];
     [self _setUpChildVCs];
     [self.window setRootViewController:self.tabBarController];
     
+    [[UITabBar appearance] setShadowImage:[[UIImage alloc] init]];
+
 
     return YES;
+}
+- (void)_setUpNavigationBarAppearance{
+    
+    
+    
 }
 - (void)_setUpChildVCs{
     MainViewController *historyVC = [[MainViewController alloc]init];
     UINavigationController *historyNav = [[UINavigationController alloc]initWithRootViewController:historyVC];
     SettingViewController *settingVC = [[SettingViewController alloc]init];
     UINavigationController *settingNav = [[UINavigationController alloc]initWithRootViewController:settingVC];
-//    CaptureViewController *capVC = [[CaptureViewController alloc]init];
-//    UINavigationController *capNav = [[UINavigationController alloc]initWithRootViewController:capVC];
     
     CYLTabBarController *mstabBarController = [[CYLTabBarController alloc]init];
     [self _customizeTabbarForContollers:mstabBarController];
@@ -51,13 +56,13 @@
 }
 - (void)_customizeTabbarForContollers :(CYLTabBarController *)tabBarController {
     NSDictionary *tabItemDic1 = @{
-                                                                            CYLTabBarItemTitle    :  @"",
+//                                                                            CYLTabBarItemTitle    :  @"",
                                                                             CYLTabBarItemImage :  @"tabbar_History",
                                                                             CYLTabBarItemSelectedImage : @"tabbar_History_selected",
                                                                             };
     
     NSDictionary *tabItemDic2 = @{
-                                                                            CYLTabBarItemTitle    :  @"",
+//                                                                            CYLTabBarItemTitle    :  @"",
                                                                             CYLTabBarItemImage :  @"tabbar_Setting",
                                                                             CYLTabBarItemSelectedImage : @"tabbar_Setting_selected",
                                                                             };
