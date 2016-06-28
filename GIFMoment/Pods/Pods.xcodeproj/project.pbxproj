@@ -10,10 +10,23 @@
 	<string>46</string>
 	<key>objects</key>
 	<dict>
+		<key>014CA7C6F8CCC49B006E36941712EAC1</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>FoldingTabBar.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>01F4CA3D06DF195EE81BC136CD3C5043</key>
 		<dict>
 			<key>fileRef</key>
-			<string>EFBB309B8961EC89A16713D5637435B8</string>
+			<string>42CB13011326EFDACE37021ED5F085EC</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -23,6 +36,21 @@
 					<string>Public</string>
 				</array>
 			</dict>
+		</dict>
+		<key>03705146490F5C1A86D1C4D7897B2918</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>CAAnimation+YALTabBarViewAnimations.h</string>
+			<key>path</key>
+			<string>FoldingTabBar/Category/CAAnimation/CAAnimation+YALTabBarViewAnimations/CAAnimation+YALTabBarViewAnimations.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>037C0CA694176A3C0915F62C9D20B3E6</key>
 		<dict>
@@ -37,7 +65,58 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>08E3E403E4D8E0728F794C96B32C2B19</key>
+		<key>054591B1E9067403FA39CAE25A032880</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>FoldingTabBar-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>069DD72A346120EC25529FE5C77A5C99</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>CYLTabBarController.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>09846A0F46988573DAEDDD6B55466BEA</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>D1FF58A861FDB446CB469EC1E5262EB7</string>
+			<key>buildPhases</key>
+			<array>
+				<string>8CAAF2F09BE3E16D2352E5A52DFB36D3</string>
+				<string>B06589E7B65CAA3BC544F9BB75A7EC57</string>
+				<string>17651DB5DCD07DC51D6FB6C6AB8B5C8C</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>CYLTabBarController</string>
+			<key>productName</key>
+			<string>CYLTabBarController</string>
+			<key>productReference</key>
+			<string>8E769F4B993D17D42300D16A9F7A6617</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>0AEE37E84B9F994FD4D81B3C837BA583</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -46,18 +125,11 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>FoldingTabBar.h</string>
+			<string>YALSpringAnimation.h</string>
 			<key>path</key>
-			<string>FoldingTabBar/Resources/FoldingTabBar.h</string>
+			<string>FoldingTabBar/Animation/YALSpringAnimation/YALSpringAnimation.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0C7911B93871312B6DA1B1EEC1205109</key>
-		<dict>
-			<key>fileRef</key>
-			<string>272643F56613CA0D336AE3DBF19DC404</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
 		</dict>
 		<key>10834806BD7B412BC24F347361FA2C8E</key>
 		<dict>
@@ -85,27 +157,7 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>19AAF9143FD099EF1D72522B235FE5BE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7C7530FF817E78F84FE7BE19F7DECEF8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>1A599DCBACDE2E589D12A4EE78F3ED4C</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>25C16ECAE1768EF326EB7F3E30F4B45C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>1FCEECF666D12997D845ADE7D2D46BB0</key>
+		<key>145E5F5CF02334EF607924535EAE410D</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -114,43 +166,125 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>FoldingTabBar-prefix.pch</string>
+			<string>CYLTabBarController-prefix.pch</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>1FF257F00E306FDA4EBD526FE58BCD07</key>
+		<key>147703FEF8502EA0AEA3085878F6DC9F</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>fileRef</key>
+			<string>2CB8B63208650BDA98F4711B184F628A</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>17651DB5DCD07DC51D6FB6C6AB8B5C8C</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>F319D4F311114F0733F777DF16F96430</string>
+				<string>40783489BCCB0CCD5B22CA74552527E4</string>
+				<string>A65E5B5CE66285DEAA04F1CEA17933D6</string>
+				<string>78BFBC9BC7DE195ED99820B1951CC73A</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>19AAF9143FD099EF1D72522B235FE5BE</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6CB8FF5DB73A0FA0B41ECFA93DE8B024</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>19C88E443482BBEDB9D327837126719C</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>014CA7C6F8CCC49B006E36941712EAC1</string>
+				<string>054591B1E9067403FA39CAE25A032880</string>
+				<string>A5CB5B7921408E26478DDA0AC2A0817C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
 			<key>name</key>
-			<string>YALCustomHeightTabBar.m</string>
+			<string>Support Files</string>
 			<key>path</key>
-			<string>FoldingTabBar/View/CustomHeightTabBar/YALCustomHeightTabBar.m</string>
+			<string>../Target Support Files/FoldingTabBar</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1AF03764299C1BE92FB40B75C458E383</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>069DD72A346120EC25529FE5C77A5C99</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/CYLTabBarController/CYLTabBarController-prefix.pch</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.0</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRIVATE_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>225A95C314F7C32D5E0A0022954D848B</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>506C646E486DAE28E7CD8CD4DD6E914E</string>
+				<string>39FD08E9584423A8E5B84EF52BC8116D</string>
+				<string>E3F53B19559171584B441EE2CA32ED08</string>
+				<string>E7DCA1E26FE08916ACF88E156E849E9A</string>
+				<string>C776D43DC16765E93231436AB5FFDF0C</string>
+				<string>A7A808B166E4C3EBBC8841F1B52F27D5</string>
+				<string>8302AEB334F4A2CC16E3194A73C72725</string>
+				<string>2CB8B63208650BDA98F4711B184F628A</string>
+				<string>B355984C5107CBF5EDE3DC01B3247B29</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>CYLTabBarController</string>
+			<key>path</key>
+			<string>CYLTabBarController</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>238DD8FC0F752D43249DDFF2BBAEFB50</key>
 		<dict>
 			<key>fileRef</key>
-			<string>1FF257F00E306FDA4EBD526FE58BCD07</string>
+			<string>FC65CD1D539098F03083A42D7EEFA17E</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
 		<key>2570FB3DE71FDC3079FA7DDE74D1D478</key>
 		<dict>
 			<key>fileRef</key>
-			<string>DF6FC7D75DF424D09BE8B9CD085C3228</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>25C16ECAE1768EF326EB7F3E30F4B45C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>91413329813FA6FE5A78842159E69621</string>
+			<string>301C43F784BC8A87693EF1C97E193AB4</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -164,6 +298,43 @@
 			<string>sourcecode.c.objc</string>
 			<key>path</key>
 			<string>Pods-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2AE0EF989AF08DA78884E2A1F391C0F8</key>
+		<dict>
+			<key>fileRef</key>
+			<string>91413329813FA6FE5A78842159E69621</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>2CB8B63208650BDA98F4711B184F628A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>UIViewController+CYLTabBarControllerExtention.m</string>
+			<key>path</key>
+			<string>CYLTabBarController/UIViewController+CYLTabBarControllerExtention.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2D541655EC23042CE143594904022D6E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>name</key>
+			<string>Info.plist</string>
+			<key>path</key>
+			<string>FoldingTabBar/Resources/Info.plist</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -181,7 +352,22 @@
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
-		<key>323C0A6CB1ADFB24DB3026307E0B7EC2</key>
+		<key>2EE882013D561E40F60467D10CB412F9</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>FoldingTabBar.h</string>
+			<key>path</key>
+			<string>FoldingTabBar/Resources/FoldingTabBar.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>301C43F784BC8A87693EF1C97E193AB4</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -190,24 +376,18 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>CATransaction+TransactionWithAnimationsAndCompletion.m</string>
+			<string>CAAnimation+YALTabBarViewAnimations.m</string>
 			<key>path</key>
-			<string>FoldingTabBar/Category/CATransaction/CATransaction+TransactionWithAnimationsAndCompletion/CATransaction+TransactionWithAnimationsAndCompletion.m</string>
+			<string>FoldingTabBar/Category/CAAnimation/CAAnimation+YALTabBarViewAnimations/CAAnimation+YALTabBarViewAnimations.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>34E0444B45272E6A93814F5B143DC257</key>
+		<key>3511A9697C2A854725640A94ADF3E686</key>
 		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>fileRef</key>
+			<string>39FD08E9584423A8E5B84EF52BC8116D</string>
 			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>F71BAD3AB1E85C78D594828526C960A9</string>
-			<key>remoteInfo</key>
-			<string>FoldingTabBar</string>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>37DB56D75062CC75FCB0966E1C6E8A8E</key>
 		<dict>
@@ -222,7 +402,7 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>3E263E2EA2989B8C2A1179A51D786691</key>
+		<key>39FD08E9584423A8E5B84EF52BC8116D</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -231,13 +411,13 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>YALTabBarItem.m</string>
+			<string>CYLPlusButton.m</string>
 			<key>path</key>
-			<string>FoldingTabBar/Model/TabBarItem/YALTabBarItem.m</string>
+			<string>CYLTabBarController/CYLPlusButton.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>3E5575BC24C3D8E9D1E6971D29E7D298</key>
+		<key>3E7D209E78BC9E15D549D8BA93A3E2A9</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -246,9 +426,9 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>CAAnimation+YALTabBarViewAnimations.h</string>
+			<string>YALFoldingTabBarController.h</string>
 			<key>path</key>
-			<string>FoldingTabBar/Category/CAAnimation/CAAnimation+YALTabBarViewAnimations/CAAnimation+YALTabBarViewAnimations.h</string>
+			<string>FoldingTabBar/Controller/FoldingTabBarController/YALFoldingTabBarController.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -259,10 +439,10 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>44F097BD2FC30BFC0A9DFE2A9B4A529A</key>
+		<key>40783489BCCB0CCD5B22CA74552527E4</key>
 		<dict>
 			<key>fileRef</key>
-			<string>75CF81412F72D75AE45F63148C764B12</string>
+			<string>E3F53B19559171584B441EE2CA32ED08</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -273,10 +453,79 @@
 				</array>
 			</dict>
 		</dict>
+		<key>427A9E69496D2D8C02A5A409A1A23560</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>09846A0F46988573DAEDDD6B55466BEA</string>
+			<key>remoteInfo</key>
+			<string>CYLTabBarController</string>
+		</dict>
+		<key>42CB13011326EFDACE37021ED5F085EC</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>YALTabBarItem.h</string>
+			<key>path</key>
+			<string>FoldingTabBar/Model/TabBarItem/YALTabBarItem.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>44F097BD2FC30BFC0A9DFE2A9B4A529A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>960E67EAD3FE5E5B5018B96224385FBB</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>45B10500A9DA711C94981D4FB5D046F3</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>C9B5E7CF4E1DB5F2C00A9E45DABC34D0</string>
+				<string>E2375D7C57392C0740A07AD9AFD1CB8B</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>45F971C1FABE9DAE2DF733166F54218D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>CYLTabBarController-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>46080B85FFD5098F65A4282167D33B7B</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>6207FA76695155454712BF89ACD0A9B9</string>
+			<string>014CA7C6F8CCC49B006E36941712EAC1</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
@@ -307,20 +556,6 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>49D55A1F9EB785EFC4583D4F589B00C2</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>524783338562C6F6A5D228C932239EC8</string>
-				<string>D9A08A890BD47B0FB1D06F0A83E420A7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>4E762F23EC34ED4A6FF3312D84E33A40</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -334,25 +569,10 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>4E83B6EF561B0E992F4463FA252DF6B7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>YALAnimatingTabBarConstants.m</string>
-			<key>path</key>
-			<string>FoldingTabBar/Constants/YALAnimatingTabBarConstants.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>5018EB489DD5F4766A69384F3840D461</key>
 		<dict>
 			<key>fileRef</key>
-			<string>C50EAEA211DD88CC5F383DEECB33A6E2</string>
+			<string>A9300058CF7BFEC58F7CC0344BC91CFB</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -363,7 +583,65 @@
 				</array>
 			</dict>
 		</dict>
-		<key>524783338562C6F6A5D228C932239EC8</key>
+		<key>506C646E486DAE28E7CD8CD4DD6E914E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>CYLPlusButton.h</string>
+			<key>path</key>
+			<string>CYLTabBarController/CYLPlusButton.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>552833D56DDB3E77EF12DB4B61DD6EEA</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>YALAnimatingTabBarConstants.h</string>
+			<key>path</key>
+			<string>FoldingTabBar/Constants/YALAnimatingTabBarConstants.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>589A1A922CDEDE8F4CE89221A2282A68</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2EE882013D561E40F60467D10CB412F9</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>63B6197FF92C832AF1FDA436A9634C81</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0AEE37E84B9F994FD4D81B3C837BA583</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>6776173460FD9C41486C3F14BFFE8A6E</key>
 		<dict>
 			<key>explicitFileType</key>
 			<string>archive.ar</string>
@@ -378,95 +656,20 @@
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
-		<key>55C4810B772F144CF30789FB95D9ADB9</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>6207FA76695155454712BF89ACD0A9B9</string>
-				<string>937432392F2705A850C7DEFF92ABF5F3</string>
-				<string>1FCEECF666D12997D845ADE7D2D46BB0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/FoldingTabBar</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>589A1A922CDEDE8F4CE89221A2282A68</key>
-		<dict>
-			<key>fileRef</key>
-			<string>08E3E403E4D8E0728F794C96B32C2B19</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>6207FA76695155454712BF89ACD0A9B9</key>
+		<key>67BA50C593316D644363121C2CE9B059</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>YALTabBarItem.m</string>
 			<key>path</key>
-			<string>FoldingTabBar.xcconfig</string>
+			<string>FoldingTabBar/Model/TabBarItem/YALTabBarItem.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
-		</dict>
-		<key>63B6197FF92C832AF1FDA436A9634C81</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E362EB3AAD6175215C23F3F0C3487945</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>64F69672E1C105994276C0D6E8662A5C</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>4E762F23EC34ED4A6FF3312D84E33A40</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
 		</dict>
 		<key>6911BECA35E7518D864239B7E898EEF3</key>
 		<dict>
@@ -478,6 +681,36 @@
 			<string>text.script.sh</string>
 			<key>path</key>
 			<string>Pods-frameworks.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6955C56E1989285EA8D92BE1A193A56B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>YALCustomHeightTabBar.h</string>
+			<key>path</key>
+			<string>FoldingTabBar/View/CustomHeightTabBar/YALCustomHeightTabBar.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6CB8FF5DB73A0FA0B41ECFA93DE8B024</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>YALFoldingTabBar.m</string>
+			<key>path</key>
+			<string>FoldingTabBar/View/FoldingTabBar/YALFoldingTabBar.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -502,10 +735,25 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
+		<key>71EE066846959581E946E449FC981068</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>8E769F4B993D17D42300D16A9F7A6617</string>
+				<string>6776173460FD9C41486C3F14BFFE8A6E</string>
+				<string>BB427AC407ACB928459981B29C00B5F4</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>7293399F0A643B0F98916AD0DAA61200</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>6207FA76695155454712BF89ACD0A9B9</string>
+			<string>014CA7C6F8CCC49B006E36941712EAC1</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
@@ -536,53 +784,24 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>74290D4796802DC127CF42B4A57AA836</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>YALFoldingTabBarController.m</string>
-			<key>path</key>
-			<string>FoldingTabBar/Controller/FoldingTabBarController/YALFoldingTabBarController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>75CF81412F72D75AE45F63148C764B12</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>YALFoldingTabBar.h</string>
-			<key>path</key>
-			<string>FoldingTabBar/View/FoldingTabBar/YALFoldingTabBar.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>75D7253B7BBA673249F1BD9F327115B2</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>DFB8398EC7478105D3DEF442B4F6FDC1</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>780C7CBD006EA003911C17DBC9C309B2</key>
 		<dict>
 			<key>fileRef</key>
-			<string>A6F1343195249757DBF6AED754CCD8CC</string>
+			<string>6955C56E1989285EA8D92BE1A193A56B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>78BFBC9BC7DE195ED99820B1951CC73A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>8302AEB334F4A2CC16E3194A73C72725</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -596,24 +815,9 @@
 		<key>7B609304C4EB45D3059AD69FA84C2C73</key>
 		<dict>
 			<key>fileRef</key>
-			<string>FBEF4EAC555985A38B3E2A5E16A19DF5</string>
+			<string>D4EDE9ED79822752A26F90EC44FC73CE</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-		</dict>
-		<key>7C7530FF817E78F84FE7BE19F7DECEF8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>YALFoldingTabBar.m</string>
-			<key>path</key>
-			<string>FoldingTabBar/View/FoldingTabBar/YALFoldingTabBar.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>7DB346D0F39D3F0E887471402A8071AB</key>
 		<dict>
@@ -621,8 +825,8 @@
 			<array>
 				<string>BA6428E9F66FD5A23C0A2E06ED26CD2F</string>
 				<string>122DA2E5084A4393C29BE363C764795C</string>
-				<string>75D7253B7BBA673249F1BD9F327115B2</string>
-				<string>49D55A1F9EB785EFC4583D4F589B00C2</string>
+				<string>DA9147BD0BEAAB93C04B85F530BB5AC9</string>
+				<string>71EE066846959581E946E449FC981068</string>
 				<string>037C0CA694176A3C0915F62C9D20B3E6</string>
 			</array>
 			<key>isa</key>
@@ -630,25 +834,25 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>81DFC167781281EFF494C4622F1116CC</key>
+		<key>8302AEB334F4A2CC16E3194A73C72725</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>Info.plist</string>
+			<string>UIViewController+CYLTabBarControllerExtention.h</string>
 			<key>path</key>
-			<string>FoldingTabBar/Resources/Info.plist</string>
+			<string>CYLTabBarController/UIViewController+CYLTabBarControllerExtention.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>8B1A6039000FA5AF28C8681F9DE24921</key>
 		<dict>
 			<key>fileRef</key>
-			<string>3E5575BC24C3D8E9D1E6971D29E7D298</string>
+			<string>03705146490F5C1A86D1C4D7897B2918</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -658,6 +862,38 @@
 					<string>Public</string>
 				</array>
 			</dict>
+		</dict>
+		<key>8CAAF2F09BE3E16D2352E5A52DFB36D3</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>3511A9697C2A854725640A94ADF3E686</string>
+				<string>AF10BE85DAB29AC60B524D4B7C2901C4</string>
+				<string>B2EC6595D934DD4426D7B04230030E40</string>
+				<string>D302F6F778101CF7A04AEEBDD9C3CF69</string>
+				<string>147703FEF8502EA0AEA3085878F6DC9F</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>8E769F4B993D17D42300D16A9F7A6617</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>libCYLTabBarController.a</string>
+			<key>path</key>
+			<string>libCYLTabBarController.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
 		<key>8E95B6A4C10F700AF97EB23BB374FBCF</key>
 		<dict>
@@ -679,16 +915,18 @@
 			<key>sourceTree</key>
 			<string>DEVELOPER_DIR</string>
 		</dict>
-		<key>937432392F2705A850C7DEFF92ABF5F3</key>
+		<key>960E67EAD3FE5E5B5018B96224385FBB</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>YALFoldingTabBar.h</string>
 			<key>path</key>
-			<string>FoldingTabBar-dummy.m</string>
+			<string>FoldingTabBar/View/FoldingTabBar/YALFoldingTabBar.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -712,36 +950,44 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>9A9671991FC07F784B9A014916B59D18</key>
+		<key>9B18DA1E0952B31579FA45586F8E45BF</key>
 		<dict>
-			<key>buildConfigurationList</key>
-			<string>F983D80CE67A70A82C6CA861526A4AA2</string>
-			<key>buildPhases</key>
-			<array>
-				<string>E86EB04A044C992066ABDFFEC1FE6986</string>
-				<string>1A599DCBACDE2E589D12A4EE78F3ED4C</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>B22440765F6A71DE2B1CAD5126170576</string>
-			</array>
+			<key>baseConfigurationReference</key>
+			<string>069DD72A346120EC25529FE5C77A5C99</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/CYLTabBarController/CYLTabBarController-prefix.pch</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.0</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRIVATE_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
 			<key>isa</key>
-			<string>PBXNativeTarget</string>
+			<string>XCBuildConfiguration</string>
 			<key>name</key>
-			<string>Pods</string>
-			<key>productName</key>
-			<string>Pods</string>
-			<key>productReference</key>
-			<string>D9A08A890BD47B0FB1D06F0A83E420A7</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
+			<string>Release</string>
 		</dict>
 		<key>9C2772BB95EA34703426909B9BC34EC8</key>
 		<dict>
 			<key>fileRef</key>
-			<string>74290D4796802DC127CF42B4A57AA836</string>
+			<string>E4F46B4F5269102BF4D76C974507BB95</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -758,7 +1004,7 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>A6F1343195249757DBF6AED754CCD8CC</key>
+		<key>A5CB5B7921408E26478DDA0AC2A0817C</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -766,12 +1012,24 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>YALCustomHeightTabBar.h</string>
 			<key>path</key>
-			<string>FoldingTabBar/View/CustomHeightTabBar/YALCustomHeightTabBar.h</string>
+			<string>FoldingTabBar-prefix.pch</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A65E5B5CE66285DEAA04F1CEA17933D6</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C776D43DC16765E93231436AB5FFDF0C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
 		</dict>
 		<key>A70CDAD61F90AC503C7D04CC22DA2923</key>
 		<dict>
@@ -846,7 +1104,68 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>B22440765F6A71DE2B1CAD5126170576</key>
+		<key>A72EE154B848F855E711B97D39039BEA</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>03705146490F5C1A86D1C4D7897B2918</string>
+				<string>301C43F784BC8A87693EF1C97E193AB4</string>
+				<string>A9300058CF7BFEC58F7CC0344BC91CFB</string>
+				<string>F68CB7F578C789894C31DDCFDCBDCB2E</string>
+				<string>2EE882013D561E40F60467D10CB412F9</string>
+				<string>2D541655EC23042CE143594904022D6E</string>
+				<string>552833D56DDB3E77EF12DB4B61DD6EEA</string>
+				<string>D27D185A43DC1FDDC138FCCF1A94669B</string>
+				<string>6955C56E1989285EA8D92BE1A193A56B</string>
+				<string>FC65CD1D539098F03083A42D7EEFA17E</string>
+				<string>960E67EAD3FE5E5B5018B96224385FBB</string>
+				<string>6CB8FF5DB73A0FA0B41ECFA93DE8B024</string>
+				<string>3E7D209E78BC9E15D549D8BA93A3E2A9</string>
+				<string>E4F46B4F5269102BF4D76C974507BB95</string>
+				<string>0AEE37E84B9F994FD4D81B3C837BA583</string>
+				<string>D4EDE9ED79822752A26F90EC44FC73CE</string>
+				<string>42CB13011326EFDACE37021ED5F085EC</string>
+				<string>67BA50C593316D644363121C2CE9B059</string>
+				<string>19C88E443482BBEDB9D327837126719C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>FoldingTabBar</string>
+			<key>path</key>
+			<string>FoldingTabBar</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A7A808B166E4C3EBBC8841F1B52F27D5</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>CYLTabBarController.m</string>
+			<key>path</key>
+			<string>CYLTabBarController/CYLTabBarController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A86CDC8FA8A97C72EB7DF86B8A8BD5DE</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>CF016D455E888221D483A0D2650C7387</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>A925ED21F9848A0FD7311951392C168D</key>
 		<dict>
 			<key>isa</key>
 			<string>PBXTargetDependency</string>
@@ -855,7 +1174,66 @@
 			<key>target</key>
 			<string>F71BAD3AB1E85C78D594828526C960A9</string>
 			<key>targetProxy</key>
-			<string>34E0444B45272E6A93814F5B143DC257</string>
+			<string>FDB3E9D6D47DADDC502BD66C1D33D3A8</string>
+		</dict>
+		<key>A9300058CF7BFEC58F7CC0344BC91CFB</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>CATransaction+TransactionWithAnimationsAndCompletion.h</string>
+			<key>path</key>
+			<string>FoldingTabBar/Category/CATransaction/CATransaction+TransactionWithAnimationsAndCompletion/CATransaction+TransactionWithAnimationsAndCompletion.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>AF10BE85DAB29AC60B524D4B7C2901C4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E7DCA1E26FE08916ACF88E156E849E9A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>B06589E7B65CAA3BC544F9BB75A7EC57</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>BAF1723F4A49D083E05276A87DA19A4A</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>B2EC6595D934DD4426D7B04230030E40</key>
+		<dict>
+			<key>fileRef</key>
+			<string>45F971C1FABE9DAE2DF733166F54218D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>B355984C5107CBF5EDE3DC01B3247B29</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>069DD72A346120EC25529FE5C77A5C99</string>
+				<string>45F971C1FABE9DAE2DF733166F54218D</string>
+				<string>145E5F5CF02334EF607924535EAE410D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>../Target Support Files/CYLTabBarController</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>B3D1D13E0C6553800746CB8FD61CF946</key>
 		<dict>
@@ -881,7 +1259,7 @@
 		<key>B62B4BD84DDFD9C5FC17266F543B81C3</key>
 		<dict>
 			<key>fileRef</key>
-			<string>4E83B6EF561B0E992F4463FA252DF6B7</string>
+			<string>D27D185A43DC1FDDC138FCCF1A94669B</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -902,10 +1280,68 @@
 			<key>xcLanguageSpecificationIdentifier</key>
 			<string>xcode.lang.ruby</string>
 		</dict>
-		<key>BBE011104AEC982AD94E13357A174DA5</key>
+		<key>BAF1723F4A49D083E05276A87DA19A4A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>91413329813FA6FE5A78842159E69621</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>BB427AC407ACB928459981B29C00B5F4</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>libPods.a</string>
+			<key>path</key>
+			<string>libPods.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>BFA40F16AF9645880BC0839F7CB8C1C5</key>
+		<dict>
+			<key>fileRef</key>
+			<string>552833D56DDB3E77EF12DB4B61DD6EEA</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>C776D43DC16765E93231436AB5FFDF0C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>CYLTabBarController.h</string>
+			<key>path</key>
+			<string>CYLTabBarController/CYLTabBarController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C89460BF62722E10E96C999DF7402FA5</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F68CB7F578C789894C31DDCFDCBDCB2E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>C9B5E7CF4E1DB5F2C00A9E45DABC34D0</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>98C98CDFB3F20F2925F6CD1F141BB14F</string>
+			<string>4E762F23EC34ED4A6FF3312D84E33A40</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
@@ -915,7 +1351,7 @@
 				<key>MACH_O_TYPE</key>
 				<string>staticlib</string>
 				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
+				<string>YES</string>
 				<key>OTHER_LDFLAGS</key>
 				<string></string>
 				<key>OTHER_LIBTOOLFLAGS</key>
@@ -932,56 +1368,48 @@
 			<key>isa</key>
 			<string>XCBuildConfiguration</string>
 			<key>name</key>
-			<string>Release</string>
+			<string>Debug</string>
 		</dict>
-		<key>BF39E58E9D23D73BF6443DA7E8BEC91F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>YALAnimatingTabBarConstants.h</string>
-			<key>path</key>
-			<string>FoldingTabBar/Constants/YALAnimatingTabBarConstants.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BFA40F16AF9645880BC0839F7CB8C1C5</key>
+		<key>CF016D455E888221D483A0D2650C7387</key>
 		<dict>
 			<key>fileRef</key>
-			<string>BF39E58E9D23D73BF6443DA7E8BEC91F</string>
+			<string>272643F56613CA0D336AE3DBF19DC404</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
 		</dict>
-		<key>C50EAEA211DD88CC5F383DEECB33A6E2</key>
+		<key>D1FF58A861FDB446CB469EC1E5262EB7</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>1AF03764299C1BE92FB40B75C458E383</string>
+				<string>9B18DA1E0952B31579FA45586F8E45BF</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>D27D185A43DC1FDDC138FCCF1A94669B</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>CATransaction+TransactionWithAnimationsAndCompletion.h</string>
+			<string>YALAnimatingTabBarConstants.m</string>
 			<key>path</key>
-			<string>FoldingTabBar/Category/CATransaction/CATransaction+TransactionWithAnimationsAndCompletion/CATransaction+TransactionWithAnimationsAndCompletion.h</string>
+			<string>FoldingTabBar/Constants/YALAnimatingTabBarConstants.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>C89460BF62722E10E96C999DF7402FA5</key>
+		<key>D302F6F778101CF7A04AEEBDD9C3CF69</key>
 		<dict>
 			<key>fileRef</key>
-			<string>323C0A6CB1ADFB24DB3026307E0B7EC2</string>
+			<string>A7A808B166E4C3EBBC8841F1B52F27D5</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -1011,7 +1439,7 @@
 			<key>mainGroup</key>
 			<string>7DB346D0F39D3F0E887471402A8071AB</string>
 			<key>productRefGroup</key>
-			<string>49D55A1F9EB785EFC4583D4F589B00C2</string>
+			<string>71EE066846959581E946E449FC981068</string>
 			<key>projectDirPath</key>
 			<string></string>
 			<key>projectReferences</key>
@@ -1020,14 +1448,57 @@
 			<string></string>
 			<key>targets</key>
 			<array>
+				<string>09846A0F46988573DAEDDD6B55466BEA</string>
 				<string>F71BAD3AB1E85C78D594828526C960A9</string>
-				<string>9A9671991FC07F784B9A014916B59D18</string>
+				<string>D56B19D6956EF92D924E2620D12E116E</string>
 			</array>
+		</dict>
+		<key>D4EDE9ED79822752A26F90EC44FC73CE</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>YALSpringAnimation.m</string>
+			<key>path</key>
+			<string>FoldingTabBar/Animation/YALSpringAnimation/YALSpringAnimation.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D56B19D6956EF92D924E2620D12E116E</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>45B10500A9DA711C94981D4FB5D046F3</string>
+			<key>buildPhases</key>
+			<array>
+				<string>A86CDC8FA8A97C72EB7DF86B8A8BD5DE</string>
+				<string>F9956768E1279675B50C52B16466F531</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>E6D19F3EF15072FBFBF2765BDE928D7A</string>
+				<string>A925ED21F9848A0FD7311951392C168D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>productName</key>
+			<string>Pods</string>
+			<key>productReference</key>
+			<string>BB427AC407ACB928459981B29C00B5F4</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
 		</dict>
 		<key>D9006D440C6B70F14A13B228427AB02F</key>
 		<dict>
 			<key>fileRef</key>
-			<string>EA1D2430AB087E0CAB42B1307D8D1B93</string>
+			<string>3E7D209E78BC9E15D549D8BA93A3E2A9</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1037,21 +1508,6 @@
 					<string>Public</string>
 				</array>
 			</dict>
-		</dict>
-		<key>D9A08A890BD47B0FB1D06F0A83E420A7</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>libPods.a</string>
-			<key>path</key>
-			<string>libPods.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
 		<key>D9DE615671731BF3AEFB3CB1F984FA8F</key>
 		<dict>
@@ -1103,51 +1559,17 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>DF6FC7D75DF424D09BE8B9CD085C3228</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>CAAnimation+YALTabBarViewAnimations.m</string>
-			<key>path</key>
-			<string>FoldingTabBar/Category/CAAnimation/CAAnimation+YALTabBarViewAnimations/CAAnimation+YALTabBarViewAnimations.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DFB8398EC7478105D3DEF442B4F6FDC1</key>
+		<key>DA9147BD0BEAAB93C04B85F530BB5AC9</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>3E5575BC24C3D8E9D1E6971D29E7D298</string>
-				<string>DF6FC7D75DF424D09BE8B9CD085C3228</string>
-				<string>C50EAEA211DD88CC5F383DEECB33A6E2</string>
-				<string>323C0A6CB1ADFB24DB3026307E0B7EC2</string>
-				<string>08E3E403E4D8E0728F794C96B32C2B19</string>
-				<string>81DFC167781281EFF494C4622F1116CC</string>
-				<string>BF39E58E9D23D73BF6443DA7E8BEC91F</string>
-				<string>4E83B6EF561B0E992F4463FA252DF6B7</string>
-				<string>A6F1343195249757DBF6AED754CCD8CC</string>
-				<string>1FF257F00E306FDA4EBD526FE58BCD07</string>
-				<string>75CF81412F72D75AE45F63148C764B12</string>
-				<string>7C7530FF817E78F84FE7BE19F7DECEF8</string>
-				<string>EA1D2430AB087E0CAB42B1307D8D1B93</string>
-				<string>74290D4796802DC127CF42B4A57AA836</string>
-				<string>E362EB3AAD6175215C23F3F0C3487945</string>
-				<string>FBEF4EAC555985A38B3E2A5E16A19DF5</string>
-				<string>EFBB309B8961EC89A16713D5637435B8</string>
-				<string>3E263E2EA2989B8C2A1179A51D786691</string>
-				<string>55C4810B772F144CF30789FB95D9ADB9</string>
+				<string>225A95C314F7C32D5E0A0022954D848B</string>
+				<string>A72EE154B848F855E711B97D39039BEA</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>FoldingTabBar</string>
-			<key>path</key>
-			<string>FoldingTabBar</string>
+			<string>Pods</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1166,7 +1588,39 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>E362EB3AAD6175215C23F3F0C3487945</key>
+		<key>E2375D7C57392C0740A07AD9AFD1CB8B</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>98C98CDFB3F20F2925F6CD1F141BB14F</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.0</string>
+				<key>MACH_O_TYPE</key>
+				<string>staticlib</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PODS_ROOT</key>
+				<string>$(SRCROOT)</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>E3F53B19559171584B441EE2CA32ED08</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1175,9 +1629,24 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>YALSpringAnimation.h</string>
+			<string>CYLTabBar.h</string>
 			<key>path</key>
-			<string>FoldingTabBar/Animation/YALSpringAnimation/YALSpringAnimation.h</string>
+			<string>CYLTabBarController/CYLTabBar.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E4F46B4F5269102BF4D76C974507BB95</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>YALFoldingTabBarController.m</string>
+			<key>path</key>
+			<string>FoldingTabBar/Controller/FoldingTabBarController/YALFoldingTabBarController.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1194,31 +1663,29 @@
 			<key>sourceTree</key>
 			<string>DEVELOPER_DIR</string>
 		</dict>
-		<key>E86EB04A044C992066ABDFFEC1FE6986</key>
+		<key>E6D19F3EF15072FBFBF2765BDE928D7A</key>
 		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>0C7911B93871312B6DA1B1EEC1205109</string>
-			</array>
 			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>CYLTabBarController</string>
+			<key>target</key>
+			<string>09846A0F46988573DAEDDD6B55466BEA</string>
+			<key>targetProxy</key>
+			<string>427A9E69496D2D8C02A5A409A1A23560</string>
 		</dict>
-		<key>EA1D2430AB087E0CAB42B1307D8D1B93</key>
+		<key>E7DCA1E26FE08916ACF88E156E849E9A</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>YALFoldingTabBarController.h</string>
+			<string>CYLTabBar.m</string>
 			<key>path</key>
-			<string>FoldingTabBar/Controller/FoldingTabBarController/YALFoldingTabBarController.h</string>
+			<string>CYLTabBarController/CYLTabBar.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1239,22 +1706,36 @@
 		<key>ECC8EBFC676967F484997E865656D723</key>
 		<dict>
 			<key>fileRef</key>
-			<string>81DFC167781281EFF494C4622F1116CC</string>
+			<string>2D541655EC23042CE143594904022D6E</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>EFBB309B8961EC89A16713D5637435B8</key>
+		<key>F319D4F311114F0733F777DF16F96430</key>
+		<dict>
+			<key>fileRef</key>
+			<string>506C646E486DAE28E7CD8CD4DD6E914E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>F68CB7F578C789894C31DDCFDCBDCB2E</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>YALTabBarItem.h</string>
+			<string>CATransaction+TransactionWithAnimationsAndCompletion.m</string>
 			<key>path</key>
-			<string>FoldingTabBar/Model/TabBarItem/YALTabBarItem.h</string>
+			<string>FoldingTabBar/Category/CATransaction/CATransaction+TransactionWithAnimationsAndCompletion/CATransaction+TransactionWithAnimationsAndCompletion.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1279,37 +1760,36 @@
 			<key>productName</key>
 			<string>FoldingTabBar</string>
 			<key>productReference</key>
-			<string>524783338562C6F6A5D228C932239EC8</string>
+			<string>6776173460FD9C41486C3F14BFFE8A6E</string>
 			<key>productType</key>
 			<string>com.apple.product-type.library.static</string>
 		</dict>
 		<key>F854B2D6B4C1F48284959888F168DB18</key>
 		<dict>
 			<key>fileRef</key>
-			<string>3E263E2EA2989B8C2A1179A51D786691</string>
+			<string>67BA50C593316D644363121C2CE9B059</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
 		<key>F88BC03B03F259BD6A0B88E10F63CCA9</key>
 		<dict>
 			<key>fileRef</key>
-			<string>937432392F2705A850C7DEFF92ABF5F3</string>
+			<string>054591B1E9067403FA39CAE25A032880</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>F983D80CE67A70A82C6CA861526A4AA2</key>
+		<key>F9956768E1279675B50C52B16466F531</key>
 		<dict>
-			<key>buildConfigurations</key>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
 			<array>
-				<string>64F69672E1C105994276C0D6E8662A5C</string>
-				<string>BBE011104AEC982AD94E13357A174DA5</string>
+				<string>2AE0EF989AF08DA78884E2A1F391C0F8</string>
 			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
 			<key>isa</key>
-			<string>XCConfigurationList</string>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
 		</dict>
 		<key>FB45FFD90572718D82AB9092B750F0CA</key>
 		<dict>
@@ -1379,7 +1859,7 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>FBEF4EAC555985A38B3E2A5E16A19DF5</key>
+		<key>FC65CD1D539098F03083A42D7EEFA17E</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1388,11 +1868,24 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>YALSpringAnimation.m</string>
+			<string>YALCustomHeightTabBar.m</string>
 			<key>path</key>
-			<string>FoldingTabBar/Animation/YALSpringAnimation/YALSpringAnimation.m</string>
+			<string>FoldingTabBar/View/CustomHeightTabBar/YALCustomHeightTabBar.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FDB3E9D6D47DADDC502BD66C1D33D3A8</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>F71BAD3AB1E85C78D594828526C960A9</string>
+			<key>remoteInfo</key>
+			<string>FoldingTabBar</string>
 		</dict>
 	</dict>
 	<key>rootObject</key>

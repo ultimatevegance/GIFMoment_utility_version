@@ -22,7 +22,6 @@
 		8DD555E61D1BCF1B00DB8606 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DD555E41D1BCF1B00DB8606 /* MainViewController.xib */; };
 		8DD555EF1D1BD3B000DB8606 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD555ED1D1BD3B000DB8606 /* SettingViewController.m */; };
 		8DD555F01D1BD3B000DB8606 /* SettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DD555EE1D1BD3B000DB8606 /* SettingViewController.xib */; };
-		8DD555F31D1BEBD000DB8606 /* MTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD555F21D1BEBD000DB8606 /* MTabViewController.m */; };
 		B5123099C77051F4BDB642A6 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6350FC2734953ED5CBDA34F7 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -72,8 +71,6 @@
 		8DD555EC1D1BD3B000DB8606 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
 		8DD555ED1D1BD3B000DB8606 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
 		8DD555EE1D1BD3B000DB8606 /* SettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingViewController.xib; sourceTree = "<group>"; };
-		8DD555F11D1BEBD000DB8606 /* MTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTabViewController.h; sourceTree = "<group>"; };
-		8DD555F21D1BEBD000DB8606 /* MTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTabViewController.m; sourceTree = "<group>"; };
 		AC2C29AF52BF1DBE26CCFC0D /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -129,7 +126,6 @@
 			isa = PBXGroup;
 			children = (
 				8DD555EA1D1BD25B00DB8606 /* WalkThrough */,
-				8D49B2531D193AD500719725 /* lib */,
 				8D49B2521D193ACA00719725 /* Views */,
 				8D49B2511D193ABA00719725 /* Models */,
 				8D49B2501D193AA200719725 /* Controllers */,
@@ -139,6 +135,7 @@
 				8D49B22B1D19395B00719725 /* LaunchScreen.storyboard */,
 				8D49B22E1D19395B00719725 /* Info.plist */,
 				72E0262E1D2035B90014D311 /* Media.xcassets */,
+				8D49B2531D193AD500719725 /* lib */,
 				8D49B21D1D19395B00719725 /* Supporting Files */,
 			);
 			path = GIFMoment;
@@ -208,8 +205,6 @@
 				8DD555E21D1BCF1B00DB8606 /* MainViewController.h */,
 				8DD555E31D1BCF1B00DB8606 /* MainViewController.m */,
 				8DD555E41D1BCF1B00DB8606 /* MainViewController.xib */,
-				8DD555F11D1BEBD000DB8606 /* MTabViewController.h */,
-				8DD555F21D1BEBD000DB8606 /* MTabViewController.m */,
 			);
 			name = Main;
 			sourceTree = "<group>";
@@ -456,7 +451,6 @@
 			files = (
 				8DD555DB1D1BCE8800DB8606 /* PreviewAndEditViewController.m in Sources */,
 				8DD555E01D1BCEAD00DB8606 /* CaptureViewController.m in Sources */,
-				8DD555F31D1BEBD000DB8606 /* MTabViewController.m in Sources */,
 				8D49B2221D19395B00719725 /* AppDelegate.m in Sources */,
 				8DD555E51D1BCF1B00DB8606 /* MainViewController.m in Sources */,
 				8D49B21F1D19395B00719725 /* main.m in Sources */,

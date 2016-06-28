@@ -7,7 +7,10 @@
 //
 
 #import "AppDelegate.h"
-#import "MTabViewController.h"
+#import "CYLTabBarController.h"
+#import "MainViewController.h"
+#import "CaptureViewController.h"
+#import "SettingViewController.h"
 
 @interface AppDelegate ()
 
@@ -18,11 +21,51 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen ].bounds];
+    [self.window makeKeyAndVisible];
+    [self _setUpChildVCs];
+    [self.window setRootViewController:self.tabBarController];
     
+
     return YES;
 }
+- (void)_setUpChildVCs{
+    MainViewController *historyVC = [[MainViewController alloc]init];
+    UINavigationController *historyNav = [[UINavigationController alloc]initWithRootViewController:historyVC];
+    SettingViewController *settingVC = [[SettingViewController alloc]init];
+    UINavigationController *settingNav = [[UINavigationController alloc]initWithRootViewController:settingVC];
+//    CaptureViewController *capVC = [[CaptureViewController alloc]init];
+//    UINavigationController *capNav = [[UINavigationController alloc]initWithRootViewController:capVC];
+    
+    CYLTabBarController *mstabBarController = [[CYLTabBarController alloc]init];
+    [self _customizeTabbarForContollers:mstabBarController];
+    [mstabBarController setViewControllers:@[
+                                                                                                    historyNav,
+                                                                                                    settingNav,
+                                                                                                    ]];
 
+    self.tabBarController = mstabBarController;
+    
+    
+    
+}
+- (void)_customizeTabbarForContollers :(CYLTabBarController *)tabBarController {
+    NSDictionary *tabItemDic1 = @{
+                                                                            CYLTabBarItemTitle    :  @"",
+                                                                            CYLTabBarItemImage :  @"tabbar_History",
+                                                                            CYLTabBarItemSelectedImage : @"tabbar_History_selected",
+                                                                            };
+    
+    NSDictionary *tabItemDic2 = @{
+                                                                            CYLTabBarItemTitle    :  @"",
+                                                                            CYLTabBarItemImage :  @"tabbar_Setting",
+                                                                            CYLTabBarItemSelectedImage : @"tabbar_Setting_selected",
+                                                                            };
+    NSArray *tabBarItemAttributes = @[tabItemDic1,tabItemDic2];
+    tabBarController.tabBarItemsAttributes = tabBarItemAttributes;
+    
 
+}
 
 
 

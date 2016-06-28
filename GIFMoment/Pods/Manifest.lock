@@ -1,10 +1,13 @@
 PODS:
+  - CYLTabBarController (1.5.4)
   - FoldingTabBar (1.0.4)
 
 DEPENDENCIES:
+  - CYLTabBarController
   - FoldingTabBar (~> 1.0.3)
 
 SPEC CHECKSUMS:
+  CYLTabBarController: 7c2985a03fa6bde1d5a38d32e021f31ae46fff7c
   FoldingTabBar: 0b099ae881bb5e009eb5f893aba2d6d8d8a066a2
 
 COCOAPODS: 0.39.0
