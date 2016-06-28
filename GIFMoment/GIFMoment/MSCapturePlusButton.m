@@ -26,11 +26,6 @@
     
     
 }
-- (void)plusChildViewControllerButtonClicked:(UIButton<CYLPlusButtonSubclassing> *)sender{
-    
-    
-    
-}
 
 + (NSUInteger)indexOfPlusButtonInTabBar{
     

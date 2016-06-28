@@ -25,15 +25,20 @@
     [self.window makeKeyAndVisible];
     [self _setUpChildVCs];
     [self.window setRootViewController:self.tabBarController];
-    
-    [[UITabBar appearance] setShadowImage:[[UIImage alloc] init]];
+    [self _customizeUIAppearance];
 
 
     return YES;
 }
-- (void)_setUpNavigationBarAppearance{
-    
-    
+
+- (void)_customizeUIAppearance{
+    //tabbar appearance
+    [[UITabBar appearance] setShadowImage:[[UIImage alloc] init]];
+    UITabBar *tabBarAppearance = [UITabBar appearance];
+    [tabBarAppearance setBackgroundColor:[UIColor colorWithRed:0.941 green:0.965 blue:0.953 alpha:1.00]];
+    //navigation bar appearance
+    UINavigationBar *naviApearance = [UINavigationBar appearance];
+    [naviApearance setBackgroundColor:[UIColor colorWithRed:0.941 green:0.965 blue:0.953 alpha:1.00]];
     
 }
 - (void)_setUpChildVCs{

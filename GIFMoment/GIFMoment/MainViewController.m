@@ -16,9 +16,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
-    }
+    [self naviUI];
 
+}
+- (void)naviUI{
+    UIImageView *wordLogoView = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"wordlogoRed"]];
+    wordLogoView.frame = CGRectMake(0, 0, 200, 48.5);
+    [self.navigationItem setTitleView:wordLogoView];
+
+    
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
