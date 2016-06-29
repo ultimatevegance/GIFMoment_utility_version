@@ -35,6 +35,7 @@
     //tabbar appearance
     [[UITabBar appearance] setShadowImage:[[UIImage alloc] init]];
     UITabBar *tabBarAppearance = [UITabBar appearance];
+    tabBarAppearance.translucent = YES;
     [tabBarAppearance setBackgroundColor:[UIColor colorWithRed:0.941 green:0.965 blue:0.953 alpha:1.00]];
     //navigation bar appearance
     UINavigationBar *naviApearance = [UINavigationBar appearance];

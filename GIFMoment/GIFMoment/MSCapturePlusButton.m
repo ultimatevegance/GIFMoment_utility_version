@@ -26,7 +26,8 @@
     
     
 }
-
+# pragma mark -- delegate methods
+//tabbar index starting form zero
 + (NSUInteger)indexOfPlusButtonInTabBar{
     
     return 1;
