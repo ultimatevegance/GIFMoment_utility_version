@@ -23,7 +23,7 @@
     UIImageView *wordLogoView = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"wordlogoRed"]];
     wordLogoView.frame = CGRectMake(0, 0, 200, 48.5);
     [self.navigationItem setTitleView:wordLogoView];
-
+   
     
 }
 - (void)didReceiveMemoryWarning {

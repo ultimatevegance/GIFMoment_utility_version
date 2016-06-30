@@ -24,7 +24,6 @@
    
     [self _customizeUIAppearance];
 
-
     return YES;
 }
 
