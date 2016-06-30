@@ -33,13 +33,15 @@
 
 - (void)_customizeUIAppearance{
     //tabbar appearance
-    [[UITabBar appearance] setShadowImage:[[UIImage alloc] init]];
-    UITabBar *tabBarAppearance = [UITabBar appearance];
-    tabBarAppearance.translucent = YES;
-    [tabBarAppearance setBackgroundColor:[UIColor colorWithRed:0.941 green:0.965 blue:0.953 alpha:1.00]];
+    [[UITabBar appearance] setBackgroundImage:[[UIImage alloc] init]];
+    [[UITabBar appearance] setBackgroundColor:[UIColor whiteColor]];
+    [[UITabBar appearance] setShadowImage:[UIImage imageNamed:@"tapbar_top_line"]];
+    
     //navigation bar appearance
-    UINavigationBar *naviApearance = [UINavigationBar appearance];
-    [naviApearance setBackgroundColor:[UIColor colorWithRed:0.941 green:0.965 blue:0.953 alpha:1.00]];
+    [[UINavigationBar appearance] setBackgroundImage:[[UIImage alloc] init] forBarMetrics:UIBarMetricsDefault];
+    [[UINavigationBar appearance] setBackgroundColor:[UIColor whiteColor]];
+    [[UINavigationBar appearance] setShadowImage:[UIImage imageNamed:@"tapbar_top_line"]];
+
     
 }
 - (void)_setUpChildVCs{
