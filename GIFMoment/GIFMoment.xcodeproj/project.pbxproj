@@ -15,6 +15,7 @@
 		8D49B22D1D19395B00719725 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D49B22B1D19395B00719725 /* LaunchScreen.storyboard */; };
 		8D49B2381D19395B00719725 /* GIFMomentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D49B2371D19395B00719725 /* GIFMomentTests.m */; };
 		8D49B2431D19395B00719725 /* GIFMomentUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D49B2421D19395B00719725 /* GIFMomentUITests.m */; };
+		8D64501B1D24FAD200308F0A /* MSTabBarControllerConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D64501A1D24FAD200308F0A /* MSTabBarControllerConfig.m */; };
 		8DD555DB1D1BCE8800DB8606 /* PreviewAndEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD555D91D1BCE8800DB8606 /* PreviewAndEditViewController.m */; };
 		8DD555DC1D1BCE8800DB8606 /* PreviewAndEditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DD555DA1D1BCE8800DB8606 /* PreviewAndEditViewController.xib */; };
 		8DD555E01D1BCEAD00DB8606 /* CaptureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD555DE1D1BCEAD00DB8606 /* CaptureViewController.m */; };
@@ -62,6 +63,8 @@
 		8D49B23E1D19395B00719725 /* GIFMomentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GIFMomentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D49B2421D19395B00719725 /* GIFMomentUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GIFMomentUITests.m; sourceTree = "<group>"; };
 		8D49B2441D19395B00719725 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D6450191D24FAD200308F0A /* MSTabBarControllerConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSTabBarControllerConfig.h; sourceTree = "<group>"; };
+		8D64501A1D24FAD200308F0A /* MSTabBarControllerConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSTabBarControllerConfig.m; sourceTree = "<group>"; };
 		8DD555D81D1BCE8800DB8606 /* PreviewAndEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreviewAndEditViewController.h; sourceTree = "<group>"; };
 		8DD555D91D1BCE8800DB8606 /* PreviewAndEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreviewAndEditViewController.m; sourceTree = "<group>"; };
 		8DD555DA1D1BCE8800DB8606 /* PreviewAndEditViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PreviewAndEditViewController.xib; sourceTree = "<group>"; };
@@ -134,6 +137,8 @@
 				8D49B2501D193AA200719725 /* Controllers */,
 				8D49B2201D19395B00719725 /* AppDelegate.h */,
 				8D49B2211D19395B00719725 /* AppDelegate.m */,
+				8D6450191D24FAD200308F0A /* MSTabBarControllerConfig.h */,
+				8D64501A1D24FAD200308F0A /* MSTabBarControllerConfig.m */,
 				8D49B2261D19395B00719725 /* Main.storyboard */,
 				8D49B22B1D19395B00719725 /* LaunchScreen.storyboard */,
 				8D49B22E1D19395B00719725 /* Info.plist */,
@@ -457,6 +462,7 @@
 				8DD555DB1D1BCE8800DB8606 /* PreviewAndEditViewController.m in Sources */,
 				7262A6411D22F6CF0002DD51 /* MSCapturePlusButton.m in Sources */,
 				8DD555E01D1BCEAD00DB8606 /* CaptureViewController.m in Sources */,
+				8D64501B1D24FAD200308F0A /* MSTabBarControllerConfig.m in Sources */,
 				8D49B2221D19395B00719725 /* AppDelegate.m in Sources */,
 				8DD555E51D1BCF1B00DB8606 /* MainViewController.m in Sources */,
 				8D49B21F1D19395B00719725 /* main.m in Sources */,

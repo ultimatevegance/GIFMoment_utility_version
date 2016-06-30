@@ -19,13 +19,22 @@
     [capPlusButton setImage:capPlusButtonImage forState:UIControlStateNormal];
     
     [capPlusButton sizeToFit];
-    [capPlusButton addTarget:self action:@selector(plusChildViewControllerButtonClicked:) forControlEvents:UIControlEventTouchUpInside];
+//    [capPlusButton addTarget:self action:@selector(clickStartCap) forControlEvents:UIControlEventTouchUpInside];
     return capPlusButton;
     
     
     
     
 }
+//- (void)clickStartCap{
+//    CYLTabBarController *tabBarController = [self cyl_tabBarController];
+//    CaptureViewController *capVC = [[CaptureViewController alloc]init];
+//    
+//    [tabBarController presentViewController:capVC animated:YES completion:nil];
+//    
+//    
+//    
+//}
 # pragma mark -- delegate methods
 //tabbar index starting form zero
 + (NSUInteger)indexOfPlusButtonInTabBar{
@@ -35,7 +44,10 @@
 }
 + (UIViewController*)plusChildViewController{
     CaptureViewController * capVC = [[CaptureViewController alloc]init];
-    return capVC;
+    [capVC.view setBackgroundColor:[UIColor redColor]];
+    UINavigationController *NavC = [[UINavigationController alloc]initWithRootViewController:capVC];
+    NavC.navigationBarHidden = YES;
+    return NavC;
     
     
 }

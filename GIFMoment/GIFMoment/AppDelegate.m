@@ -7,11 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "CYLTabBarController.h"
-#import "MainViewController.h"
-#import "CaptureViewController.h"
-#import "SettingViewController.h"
-
+#import "MSTabBarControllerConfig.h"
 @interface AppDelegate ()
 
 @end
@@ -23,8 +19,9 @@
     //initial tabbar and set it as RootViewContorller
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen ].bounds];
     [self.window makeKeyAndVisible];
-    [self _setUpChildVCs];
-    [self.window setRootViewController:self.tabBarController];
+    MSTabBarControllerConfig *tabBarControllerConfig = [[MSTabBarControllerConfig alloc]init];
+    [self.window setRootViewController:tabBarControllerConfig.tabBarController];
+   
     [self _customizeUIAppearance];
 
 
@@ -32,11 +29,6 @@
 }
 
 - (void)_customizeUIAppearance{
-    //tabbar appearance
-    [[UITabBar appearance] setBackgroundImage:[[UIImage alloc] init]];
-    [[UITabBar appearance] setBackgroundColor:[UIColor whiteColor]];
-    [[UITabBar appearance] setShadowImage:[UIImage imageNamed:@"tapbar_top_line"]];
-    
     //navigation bar appearance
     [[UINavigationBar appearance] setBackgroundImage:[[UIImage alloc] init] forBarMetrics:UIBarMetricsDefault];
     [[UINavigationBar appearance] setBackgroundColor:[UIColor whiteColor]];
@@ -44,43 +36,8 @@
 
     
 }
-- (void)_setUpChildVCs{
-    MainViewController *historyVC = [[MainViewController alloc]init];
-    UINavigationController *historyNav = [[UINavigationController alloc]initWithRootViewController:historyVC];
-    SettingViewController *settingVC = [[SettingViewController alloc]init];
-    UINavigationController *settingNav = [[UINavigationController alloc]initWithRootViewController:settingVC];
-    
-    CYLTabBarController *mstabBarController = [[CYLTabBarController alloc]init];
-    [self _customizeTabbarForContollers:mstabBarController];
-    [mstabBarController setViewControllers:@[
-                                                                                                    historyNav,
-                                                                                                    settingNav,
-                                                                                                    ]];
 
-    self.tabBarController = mstabBarController;
-    
-    
-    
-}
-- (void)_customizeTabbarForContollers :(CYLTabBarController *)tabBarController {
-    NSDictionary *tabItemDic1 = @{
-//                                                                            CYLTabBarItemTitle    :  @"",
-                                                                            CYLTabBarItemImage :  @"tabbar_History",
-                                                                            CYLTabBarItemSelectedImage : @"tabbar_History_selected",
-                                                                            };
-    
-    NSDictionary *tabItemDic2 = @{
-//                                                                            CYLTabBarItemTitle    :  @"",
-                                                                            CYLTabBarItemImage :  @"tabbar_Setting",
-                                                                            CYLTabBarItemSelectedImage : @"tabbar_Setting_selected",
-                                                                            };
-    NSArray *tabBarItemAttributes = @[tabItemDic1,tabItemDic2];
-    tabBarController.tabBarItemsAttributes = tabBarItemAttributes;
-    
-
-}
-
-
+//orientation lock
 - (UIInterfaceOrientationMask)application:(UIApplication *)application supportedInterfaceOrientationsForWindow:(UIWindow *)window{
     return UIInterfaceOrientationMaskPortrait;
     
