@@ -24,7 +24,7 @@
 		8DD555E61D1BCF1B00DB8606 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DD555E41D1BCF1B00DB8606 /* MainViewController.xib */; };
 		8DD555EF1D1BD3B000DB8606 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD555ED1D1BD3B000DB8606 /* SettingViewController.m */; };
 		8DD555F01D1BD3B000DB8606 /* SettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DD555EE1D1BD3B000DB8606 /* SettingViewController.xib */; };
-		B5123099C77051F4BDB642A6 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6350FC2734953ED5CBDA34F7 /* libPods.a */; };
+		AD6B29E6D562A57439066996 /* libPods-GIFMoment.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC2F178E505B4C1186A63FA0 /* libPods-GIFMoment.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,8 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2940110E592B6710FE11DE22 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		6350FC2734953ED5CBDA34F7 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		24DF4D017DCA75E4C08F3A38 /* Pods-GIFMoment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GIFMoment.release.xcconfig"; path = "Pods/Target Support Files/Pods-GIFMoment/Pods-GIFMoment.release.xcconfig"; sourceTree = "<group>"; };
+		48C4A3D772EB82BF057896CC /* Pods-GIFMoment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GIFMoment.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GIFMoment/Pods-GIFMoment.debug.xcconfig"; sourceTree = "<group>"; };
 		7262A63F1D22F6CF0002DD51 /* MSCapturePlusButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCapturePlusButton.h; sourceTree = "<group>"; };
 		7262A6401D22F6CF0002DD51 /* MSCapturePlusButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSCapturePlusButton.m; sourceTree = "<group>"; };
 		72E0262E1D2035B90014D311 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
@@ -77,7 +77,7 @@
 		8DD555EC1D1BD3B000DB8606 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
 		8DD555ED1D1BD3B000DB8606 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
 		8DD555EE1D1BD3B000DB8606 /* SettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingViewController.xib; sourceTree = "<group>"; };
-		AC2C29AF52BF1DBE26CCFC0D /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		AC2F178E505B4C1186A63FA0 /* libPods-GIFMoment.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GIFMoment.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5123099C77051F4BDB642A6 /* libPods.a in Frameworks */,
+				AD6B29E6D562A57439066996 /* libPods-GIFMoment.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,6 +106,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		22C57F8D02DE76CAEBB0A692 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC2F178E505B4C1186A63FA0 /* libPods-GIFMoment.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8D49B2111D19395B00719725 = {
 			isa = PBXGroup;
 			children = (
@@ -113,8 +121,8 @@
 				8D49B2361D19395B00719725 /* GIFMomentTests */,
 				8D49B2411D19395B00719725 /* GIFMomentUITests */,
 				8D49B21B1D19395B00719725 /* Products */,
-				A12104A13A19F64F31B61301 /* Pods */,
-				E51A539769836383B90E543F /* Frameworks */,
+				B800E4550CB1DBBE039481CD /* Pods */,
+				22C57F8D02DE76CAEBB0A692 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -256,21 +264,13 @@
 			name = WalkThrough;
 			sourceTree = "<group>";
 		};
-		A12104A13A19F64F31B61301 /* Pods */ = {
+		B800E4550CB1DBBE039481CD /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2940110E592B6710FE11DE22 /* Pods.debug.xcconfig */,
-				AC2C29AF52BF1DBE26CCFC0D /* Pods.release.xcconfig */,
+				48C4A3D772EB82BF057896CC /* Pods-GIFMoment.debug.xcconfig */,
+				24DF4D017DCA75E4C08F3A38 /* Pods-GIFMoment.release.xcconfig */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		E51A539769836383B90E543F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				6350FC2734953ED5CBDA34F7 /* libPods.a */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,12 +280,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8D49B2471D19395B00719725 /* Build configuration list for PBXNativeTarget "GIFMoment" */;
 			buildPhases = (
-				AC49472202545766CC872677 /* Check Pods Manifest.lock */,
+				5956EA9D78CE2F730569515E /* [CP] Check Pods Manifest.lock */,
 				8D49B2161D19395B00719725 /* Sources */,
 				8D49B2171D19395B00719725 /* Frameworks */,
 				8D49B2181D19395B00719725 /* Resources */,
-				8A9A74CA53093D706D5D7CF9 /* Embed Pods Frameworks */,
-				E5176E2853889B0FE5A8178A /* Copy Pods Resources */,
+				B3B27098131EE50AEC0C578F /* [CP] Embed Pods Frameworks */,
+				2C11C68CB08E99D099120F92 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -407,29 +407,29 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		8A9A74CA53093D706D5D7CF9 /* Embed Pods Frameworks */ = {
+		2C11C68CB08E99D099120F92 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GIFMoment/Pods-GIFMoment-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		AC49472202545766CC872677 /* Check Pods Manifest.lock */ = {
+		5956EA9D78CE2F730569515E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,19 +437,19 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		E5176E2853889B0FE5A8178A /* Copy Pods Resources */ = {
+		B3B27098131EE50AEC0C578F /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GIFMoment/Pods-GIFMoment-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -607,7 +607,7 @@
 		};
 		8D49B2481D19395B00719725 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2940110E592B6710FE11DE22 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 48C4A3D772EB82BF057896CC /* Pods-GIFMoment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -625,7 +625,7 @@
 		};
 		8D49B2491D19395B00719725 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AC2C29AF52BF1DBE26CCFC0D /* Pods.release.xcconfig */;
+			baseConfigurationReference = 24DF4D017DCA75E4C08F3A38 /* Pods-GIFMoment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;

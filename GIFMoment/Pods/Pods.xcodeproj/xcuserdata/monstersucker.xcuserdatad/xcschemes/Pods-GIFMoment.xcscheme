@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'E7129D97CFCF5D495FF82F6D'
-               BlueprintName = 'FoldingTabBar'
+               BlueprintIdentifier = '69D5DBC244429BF7C8694BBC58EF3AC7'
+               BlueprintName = 'Pods-GIFMoment'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libFoldingTabBar.a'>
+               BuildableName = 'libPods-GIFMoment.a'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

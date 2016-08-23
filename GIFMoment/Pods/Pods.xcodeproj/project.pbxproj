@@ -1,1894 +1,481 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>014CA7C6F8CCC49B006E36941712EAC1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>FoldingTabBar.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>01F4CA3D06DF195EE81BC136CD3C5043</key>
-		<dict>
-			<key>fileRef</key>
-			<string>42CB13011326EFDACE37021ED5F085EC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>03705146490F5C1A86D1C4D7897B2918</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>CAAnimation+YALTabBarViewAnimations.h</string>
-			<key>path</key>
-			<string>FoldingTabBar/Category/CAAnimation/CAAnimation+YALTabBarViewAnimations/CAAnimation+YALTabBarViewAnimations.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>037C0CA694176A3C0915F62C9D20B3E6</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>B3D1D13E0C6553800746CB8FD61CF946</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>054591B1E9067403FA39CAE25A032880</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>FoldingTabBar-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>069DD72A346120EC25529FE5C77A5C99</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>CYLTabBarController.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>09846A0F46988573DAEDDD6B55466BEA</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>D1FF58A861FDB446CB469EC1E5262EB7</string>
-			<key>buildPhases</key>
-			<array>
-				<string>8CAAF2F09BE3E16D2352E5A52DFB36D3</string>
-				<string>B06589E7B65CAA3BC544F9BB75A7EC57</string>
-				<string>17651DB5DCD07DC51D6FB6C6AB8B5C8C</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>CYLTabBarController</string>
-			<key>productName</key>
-			<string>CYLTabBarController</string>
-			<key>productReference</key>
-			<string>8E769F4B993D17D42300D16A9F7A6617</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>0AEE37E84B9F994FD4D81B3C837BA583</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>YALSpringAnimation.h</string>
-			<key>path</key>
-			<string>FoldingTabBar/Animation/YALSpringAnimation/YALSpringAnimation.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>10834806BD7B412BC24F347361FA2C8E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>122DA2E5084A4393C29BE363C764795C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>DA23025FEDA7F7FE2AACB2532BD80D14</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>145E5F5CF02334EF607924535EAE410D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>CYLTabBarController-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>147703FEF8502EA0AEA3085878F6DC9F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2CB8B63208650BDA98F4711B184F628A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>17651DB5DCD07DC51D6FB6C6AB8B5C8C</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>F319D4F311114F0733F777DF16F96430</string>
-				<string>40783489BCCB0CCD5B22CA74552527E4</string>
-				<string>A65E5B5CE66285DEAA04F1CEA17933D6</string>
-				<string>78BFBC9BC7DE195ED99820B1951CC73A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>19AAF9143FD099EF1D72522B235FE5BE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6CB8FF5DB73A0FA0B41ECFA93DE8B024</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>19C88E443482BBEDB9D327837126719C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>014CA7C6F8CCC49B006E36941712EAC1</string>
-				<string>054591B1E9067403FA39CAE25A032880</string>
-				<string>A5CB5B7921408E26478DDA0AC2A0817C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/FoldingTabBar</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1AF03764299C1BE92FB40B75C458E383</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>069DD72A346120EC25529FE5C77A5C99</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/CYLTabBarController/CYLTabBarController-prefix.pch</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRIVATE_HEADERS_FOLDER_PATH</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string></string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>225A95C314F7C32D5E0A0022954D848B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>506C646E486DAE28E7CD8CD4DD6E914E</string>
-				<string>39FD08E9584423A8E5B84EF52BC8116D</string>
-				<string>E3F53B19559171584B441EE2CA32ED08</string>
-				<string>E7DCA1E26FE08916ACF88E156E849E9A</string>
-				<string>C776D43DC16765E93231436AB5FFDF0C</string>
-				<string>A7A808B166E4C3EBBC8841F1B52F27D5</string>
-				<string>8302AEB334F4A2CC16E3194A73C72725</string>
-				<string>2CB8B63208650BDA98F4711B184F628A</string>
-				<string>B355984C5107CBF5EDE3DC01B3247B29</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>CYLTabBarController</string>
-			<key>path</key>
-			<string>CYLTabBarController</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>238DD8FC0F752D43249DDFF2BBAEFB50</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FC65CD1D539098F03083A42D7EEFA17E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2570FB3DE71FDC3079FA7DDE74D1D478</key>
-		<dict>
-			<key>fileRef</key>
-			<string>301C43F784BC8A87693EF1C97E193AB4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>272643F56613CA0D336AE3DBF19DC404</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2AE0EF989AF08DA78884E2A1F391C0F8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>91413329813FA6FE5A78842159E69621</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2CB8B63208650BDA98F4711B184F628A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>UIViewController+CYLTabBarControllerExtention.m</string>
-			<key>path</key>
-			<string>CYLTabBarController/UIViewController+CYLTabBarControllerExtention.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2D541655EC23042CE143594904022D6E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>name</key>
-			<string>Info.plist</string>
-			<key>path</key>
-			<string>FoldingTabBar/Resources/Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2D8E8EC45A3A1A1D94AE762CB5028504</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>A70CDAD61F90AC503C7D04CC22DA2923</string>
-				<string>FB45FFD90572718D82AB9092B750F0CA</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>2EE882013D561E40F60467D10CB412F9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>FoldingTabBar.h</string>
-			<key>path</key>
-			<string>FoldingTabBar/Resources/FoldingTabBar.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>301C43F784BC8A87693EF1C97E193AB4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>CAAnimation+YALTabBarViewAnimations.m</string>
-			<key>path</key>
-			<string>FoldingTabBar/Category/CAAnimation/CAAnimation+YALTabBarViewAnimations/CAAnimation+YALTabBarViewAnimations.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3511A9697C2A854725640A94ADF3E686</key>
-		<dict>
-			<key>fileRef</key>
-			<string>39FD08E9584423A8E5B84EF52BC8116D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>37DB56D75062CC75FCB0966E1C6E8A8E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>39FD08E9584423A8E5B84EF52BC8116D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>CYLPlusButton.m</string>
-			<key>path</key>
-			<string>CYLTabBarController/CYLPlusButton.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3E7D209E78BC9E15D549D8BA93A3E2A9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>YALFoldingTabBarController.h</string>
-			<key>path</key>
-			<string>FoldingTabBar/Controller/FoldingTabBarController/YALFoldingTabBarController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3FEEB79BF32E8164B2124D1CBF5ED935</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E642B1A057ADA2ABEF90BE2417F349C1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>40783489BCCB0CCD5B22CA74552527E4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E3F53B19559171584B441EE2CA32ED08</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>427A9E69496D2D8C02A5A409A1A23560</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>09846A0F46988573DAEDDD6B55466BEA</string>
-			<key>remoteInfo</key>
-			<string>CYLTabBarController</string>
-		</dict>
-		<key>42CB13011326EFDACE37021ED5F085EC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>YALTabBarItem.h</string>
-			<key>path</key>
-			<string>FoldingTabBar/Model/TabBarItem/YALTabBarItem.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>44F097BD2FC30BFC0A9DFE2A9B4A529A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>960E67EAD3FE5E5B5018B96224385FBB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>45B10500A9DA711C94981D4FB5D046F3</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>C9B5E7CF4E1DB5F2C00A9E45DABC34D0</string>
-				<string>E2375D7C57392C0740A07AD9AFD1CB8B</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>45F971C1FABE9DAE2DF733166F54218D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>CYLTabBarController-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>46080B85FFD5098F65A4282167D33B7B</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>014CA7C6F8CCC49B006E36941712EAC1</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/FoldingTabBar/FoldingTabBar-prefix.pch</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRIVATE_HEADERS_FOLDER_PATH</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string></string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>4E762F23EC34ED4A6FF3312D84E33A40</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5018EB489DD5F4766A69384F3840D461</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A9300058CF7BFEC58F7CC0344BC91CFB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>506C646E486DAE28E7CD8CD4DD6E914E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>CYLPlusButton.h</string>
-			<key>path</key>
-			<string>CYLTabBarController/CYLPlusButton.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>552833D56DDB3E77EF12DB4B61DD6EEA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>YALAnimatingTabBarConstants.h</string>
-			<key>path</key>
-			<string>FoldingTabBar/Constants/YALAnimatingTabBarConstants.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>589A1A922CDEDE8F4CE89221A2282A68</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2EE882013D561E40F60467D10CB412F9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>63B6197FF92C832AF1FDA436A9634C81</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0AEE37E84B9F994FD4D81B3C837BA583</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>6776173460FD9C41486C3F14BFFE8A6E</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>libFoldingTabBar.a</string>
-			<key>path</key>
-			<string>libFoldingTabBar.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>67BA50C593316D644363121C2CE9B059</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>YALTabBarItem.m</string>
-			<key>path</key>
-			<string>FoldingTabBar/Model/TabBarItem/YALTabBarItem.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6911BECA35E7518D864239B7E898EEF3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-frameworks.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6955C56E1989285EA8D92BE1A193A56B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>YALCustomHeightTabBar.h</string>
-			<key>path</key>
-			<string>FoldingTabBar/View/CustomHeightTabBar/YALCustomHeightTabBar.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6CB8FF5DB73A0FA0B41ECFA93DE8B024</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>YALFoldingTabBar.m</string>
-			<key>path</key>
-			<string>FoldingTabBar/View/FoldingTabBar/YALFoldingTabBar.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6D83BC0C7AA911E530C37CEC3AE17348</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>8B1A6039000FA5AF28C8681F9DE24921</string>
-				<string>5018EB489DD5F4766A69384F3840D461</string>
-				<string>589A1A922CDEDE8F4CE89221A2282A68</string>
-				<string>BFA40F16AF9645880BC0839F7CB8C1C5</string>
-				<string>780C7CBD006EA003911C17DBC9C309B2</string>
-				<string>44F097BD2FC30BFC0A9DFE2A9B4A529A</string>
-				<string>D9006D440C6B70F14A13B228427AB02F</string>
-				<string>63B6197FF92C832AF1FDA436A9634C81</string>
-				<string>01F4CA3D06DF195EE81BC136CD3C5043</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>71EE066846959581E946E449FC981068</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8E769F4B993D17D42300D16A9F7A6617</string>
-				<string>6776173460FD9C41486C3F14BFFE8A6E</string>
-				<string>BB427AC407ACB928459981B29C00B5F4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7293399F0A643B0F98916AD0DAA61200</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>014CA7C6F8CCC49B006E36941712EAC1</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/FoldingTabBar/FoldingTabBar-prefix.pch</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRIVATE_HEADERS_FOLDER_PATH</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string></string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>780C7CBD006EA003911C17DBC9C309B2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6955C56E1989285EA8D92BE1A193A56B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>78BFBC9BC7DE195ED99820B1951CC73A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8302AEB334F4A2CC16E3194A73C72725</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>7B609304C4EB45D3059AD69FA84C2C73</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D4EDE9ED79822752A26F90EC44FC73CE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7DB346D0F39D3F0E887471402A8071AB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BA6428E9F66FD5A23C0A2E06ED26CD2F</string>
-				<string>122DA2E5084A4393C29BE363C764795C</string>
-				<string>DA9147BD0BEAAB93C04B85F530BB5AC9</string>
-				<string>71EE066846959581E946E449FC981068</string>
-				<string>037C0CA694176A3C0915F62C9D20B3E6</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8302AEB334F4A2CC16E3194A73C72725</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>UIViewController+CYLTabBarControllerExtention.h</string>
-			<key>path</key>
-			<string>CYLTabBarController/UIViewController+CYLTabBarControllerExtention.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8B1A6039000FA5AF28C8681F9DE24921</key>
-		<dict>
-			<key>fileRef</key>
-			<string>03705146490F5C1A86D1C4D7897B2918</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>8CAAF2F09BE3E16D2352E5A52DFB36D3</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>3511A9697C2A854725640A94ADF3E686</string>
-				<string>AF10BE85DAB29AC60B524D4B7C2901C4</string>
-				<string>B2EC6595D934DD4426D7B04230030E40</string>
-				<string>D302F6F778101CF7A04AEEBDD9C3CF69</string>
-				<string>147703FEF8502EA0AEA3085878F6DC9F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>8E769F4B993D17D42300D16A9F7A6617</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>libCYLTabBarController.a</string>
-			<key>path</key>
-			<string>libCYLTabBarController.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>8E95B6A4C10F700AF97EB23BB374FBCF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D9DE615671731BF3AEFB3CB1F984FA8F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>91413329813FA6FE5A78842159E69621</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>960E67EAD3FE5E5B5018B96224385FBB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>YALFoldingTabBar.h</string>
-			<key>path</key>
-			<string>FoldingTabBar/View/FoldingTabBar/YALFoldingTabBar.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9784CBFE058AE7D9A0EE6501E0D0A9B8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>91413329813FA6FE5A78842159E69621</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>98C98CDFB3F20F2925F6CD1F141BB14F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9B18DA1E0952B31579FA45586F8E45BF</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>069DD72A346120EC25529FE5C77A5C99</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/CYLTabBarController/CYLTabBarController-prefix.pch</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRIVATE_HEADERS_FOLDER_PATH</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string></string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>9C2772BB95EA34703426909B9BC34EC8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E4F46B4F5269102BF4D76C974507BB95</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A1A36D34413696BE466E2CA0AFF194DA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A5CB5B7921408E26478DDA0AC2A0817C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>FoldingTabBar-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A65E5B5CE66285DEAA04F1CEA17933D6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C776D43DC16765E93231436AB5FFDF0C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>A70CDAD61F90AC503C7D04CC22DA2923</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>SYMROOT</key>
-				<string>${SRCROOT}/../build</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>A72EE154B848F855E711B97D39039BEA</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>03705146490F5C1A86D1C4D7897B2918</string>
-				<string>301C43F784BC8A87693EF1C97E193AB4</string>
-				<string>A9300058CF7BFEC58F7CC0344BC91CFB</string>
-				<string>F68CB7F578C789894C31DDCFDCBDCB2E</string>
-				<string>2EE882013D561E40F60467D10CB412F9</string>
-				<string>2D541655EC23042CE143594904022D6E</string>
-				<string>552833D56DDB3E77EF12DB4B61DD6EEA</string>
-				<string>D27D185A43DC1FDDC138FCCF1A94669B</string>
-				<string>6955C56E1989285EA8D92BE1A193A56B</string>
-				<string>FC65CD1D539098F03083A42D7EEFA17E</string>
-				<string>960E67EAD3FE5E5B5018B96224385FBB</string>
-				<string>6CB8FF5DB73A0FA0B41ECFA93DE8B024</string>
-				<string>3E7D209E78BC9E15D549D8BA93A3E2A9</string>
-				<string>E4F46B4F5269102BF4D76C974507BB95</string>
-				<string>0AEE37E84B9F994FD4D81B3C837BA583</string>
-				<string>D4EDE9ED79822752A26F90EC44FC73CE</string>
-				<string>42CB13011326EFDACE37021ED5F085EC</string>
-				<string>67BA50C593316D644363121C2CE9B059</string>
-				<string>19C88E443482BBEDB9D327837126719C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>FoldingTabBar</string>
-			<key>path</key>
-			<string>FoldingTabBar</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A7A808B166E4C3EBBC8841F1B52F27D5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>CYLTabBarController.m</string>
-			<key>path</key>
-			<string>CYLTabBarController/CYLTabBarController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A86CDC8FA8A97C72EB7DF86B8A8BD5DE</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>CF016D455E888221D483A0D2650C7387</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>A925ED21F9848A0FD7311951392C168D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>FoldingTabBar</string>
-			<key>target</key>
-			<string>F71BAD3AB1E85C78D594828526C960A9</string>
-			<key>targetProxy</key>
-			<string>FDB3E9D6D47DADDC502BD66C1D33D3A8</string>
-		</dict>
-		<key>A9300058CF7BFEC58F7CC0344BC91CFB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>CATransaction+TransactionWithAnimationsAndCompletion.h</string>
-			<key>path</key>
-			<string>FoldingTabBar/Category/CATransaction/CATransaction+TransactionWithAnimationsAndCompletion/CATransaction+TransactionWithAnimationsAndCompletion.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AF10BE85DAB29AC60B524D4B7C2901C4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E7DCA1E26FE08916ACF88E156E849E9A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B06589E7B65CAA3BC544F9BB75A7EC57</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>BAF1723F4A49D083E05276A87DA19A4A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>B2EC6595D934DD4426D7B04230030E40</key>
-		<dict>
-			<key>fileRef</key>
-			<string>45F971C1FABE9DAE2DF733166F54218D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B355984C5107CBF5EDE3DC01B3247B29</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>069DD72A346120EC25529FE5C77A5C99</string>
-				<string>45F971C1FABE9DAE2DF733166F54218D</string>
-				<string>145E5F5CF02334EF607924535EAE410D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/CYLTabBarController</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B3D1D13E0C6553800746CB8FD61CF946</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>37DB56D75062CC75FCB0966E1C6E8A8E</string>
-				<string>10834806BD7B412BC24F347361FA2C8E</string>
-				<string>272643F56613CA0D336AE3DBF19DC404</string>
-				<string>6911BECA35E7518D864239B7E898EEF3</string>
-				<string>A1A36D34413696BE466E2CA0AFF194DA</string>
-				<string>4E762F23EC34ED4A6FF3312D84E33A40</string>
-				<string>98C98CDFB3F20F2925F6CD1F141BB14F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>path</key>
-			<string>Target Support Files/Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B62B4BD84DDFD9C5FC17266F543B81C3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D27D185A43DC1FDDC138FCCF1A94669B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BA6428E9F66FD5A23C0A2E06ED26CD2F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>name</key>
-			<string>Podfile</string>
-			<key>path</key>
-			<string>../Podfile</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.ruby</string>
-		</dict>
-		<key>BAF1723F4A49D083E05276A87DA19A4A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>91413329813FA6FE5A78842159E69621</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BB427AC407ACB928459981B29C00B5F4</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>libPods.a</string>
-			<key>path</key>
-			<string>libPods.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>BFA40F16AF9645880BC0839F7CB8C1C5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>552833D56DDB3E77EF12DB4B61DD6EEA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>C776D43DC16765E93231436AB5FFDF0C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>CYLTabBarController.h</string>
-			<key>path</key>
-			<string>CYLTabBarController/CYLTabBarController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C89460BF62722E10E96C999DF7402FA5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F68CB7F578C789894C31DDCFDCBDCB2E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C9B5E7CF4E1DB5F2C00A9E45DABC34D0</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>4E762F23EC34ED4A6FF3312D84E33A40</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>CF016D455E888221D483A0D2650C7387</key>
-		<dict>
-			<key>fileRef</key>
-			<string>272643F56613CA0D336AE3DBF19DC404</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D1FF58A861FDB446CB469EC1E5262EB7</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>1AF03764299C1BE92FB40B75C458E383</string>
-				<string>9B18DA1E0952B31579FA45586F8E45BF</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>D27D185A43DC1FDDC138FCCF1A94669B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>YALAnimatingTabBarConstants.m</string>
-			<key>path</key>
-			<string>FoldingTabBar/Constants/YALAnimatingTabBarConstants.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D302F6F778101CF7A04AEEBDD9C3CF69</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A7A808B166E4C3EBBC8841F1B52F27D5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D41D8CD98F00B204E9800998ECF8427E</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastSwiftUpdateCheck</key>
-				<string>0700</string>
-				<key>LastUpgradeCheck</key>
-				<string>0700</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>2D8E8EC45A3A1A1D94AE762CB5028504</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>7DB346D0F39D3F0E887471402A8071AB</string>
-			<key>productRefGroup</key>
-			<string>71EE066846959581E946E449FC981068</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>09846A0F46988573DAEDDD6B55466BEA</string>
-				<string>F71BAD3AB1E85C78D594828526C960A9</string>
-				<string>D56B19D6956EF92D924E2620D12E116E</string>
-			</array>
-		</dict>
-		<key>D4EDE9ED79822752A26F90EC44FC73CE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>YALSpringAnimation.m</string>
-			<key>path</key>
-			<string>FoldingTabBar/Animation/YALSpringAnimation/YALSpringAnimation.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D56B19D6956EF92D924E2620D12E116E</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>45B10500A9DA711C94981D4FB5D046F3</string>
-			<key>buildPhases</key>
-			<array>
-				<string>A86CDC8FA8A97C72EB7DF86B8A8BD5DE</string>
-				<string>F9956768E1279675B50C52B16466F531</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>E6D19F3EF15072FBFBF2765BDE928D7A</string>
-				<string>A925ED21F9848A0FD7311951392C168D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>productName</key>
-			<string>Pods</string>
-			<key>productReference</key>
-			<string>BB427AC407ACB928459981B29C00B5F4</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>D9006D440C6B70F14A13B228427AB02F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3E7D209E78BC9E15D549D8BA93A3E2A9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>D9DE615671731BF3AEFB3CB1F984FA8F</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>UIKit.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>D9FF8F54F43CCC370ADD5E8F22D6E63B</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>2570FB3DE71FDC3079FA7DDE74D1D478</string>
-				<string>C89460BF62722E10E96C999DF7402FA5</string>
-				<string>F88BC03B03F259BD6A0B88E10F63CCA9</string>
-				<string>ECC8EBFC676967F484997E865656D723</string>
-				<string>B62B4BD84DDFD9C5FC17266F543B81C3</string>
-				<string>238DD8FC0F752D43249DDFF2BBAEFB50</string>
-				<string>19AAF9143FD099EF1D72522B235FE5BE</string>
-				<string>9C2772BB95EA34703426909B9BC34EC8</string>
-				<string>7B609304C4EB45D3059AD69FA84C2C73</string>
-				<string>F854B2D6B4C1F48284959888F168DB18</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>DA23025FEDA7F7FE2AACB2532BD80D14</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>91413329813FA6FE5A78842159E69621</string>
-				<string>E642B1A057ADA2ABEF90BE2417F349C1</string>
-				<string>D9DE615671731BF3AEFB3CB1F984FA8F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>iOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DA9147BD0BEAAB93C04B85F530BB5AC9</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>225A95C314F7C32D5E0A0022954D848B</string>
-				<string>A72EE154B848F855E711B97D39039BEA</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DFFEAACC6817E6D05BC9FE7FCDB85716</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>9784CBFE058AE7D9A0EE6501E0D0A9B8</string>
-				<string>3FEEB79BF32E8164B2124D1CBF5ED935</string>
-				<string>8E95B6A4C10F700AF97EB23BB374FBCF</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>E2375D7C57392C0740A07AD9AFD1CB8B</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>98C98CDFB3F20F2925F6CD1F141BB14F</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>E3F53B19559171584B441EE2CA32ED08</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>CYLTabBar.h</string>
-			<key>path</key>
-			<string>CYLTabBarController/CYLTabBar.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E4F46B4F5269102BF4D76C974507BB95</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>YALFoldingTabBarController.m</string>
-			<key>path</key>
-			<string>FoldingTabBar/Controller/FoldingTabBarController/YALFoldingTabBarController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E642B1A057ADA2ABEF90BE2417F349C1</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>QuartzCore.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/QuartzCore.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>E6D19F3EF15072FBFBF2765BDE928D7A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>CYLTabBarController</string>
-			<key>target</key>
-			<string>09846A0F46988573DAEDDD6B55466BEA</string>
-			<key>targetProxy</key>
-			<string>427A9E69496D2D8C02A5A409A1A23560</string>
-		</dict>
-		<key>E7DCA1E26FE08916ACF88E156E849E9A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>CYLTabBar.m</string>
-			<key>path</key>
-			<string>CYLTabBarController/CYLTabBar.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EA74C7D5D34DFC8C25B79ED5E67E475D</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>46080B85FFD5098F65A4282167D33B7B</string>
-				<string>7293399F0A643B0F98916AD0DAA61200</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>ECC8EBFC676967F484997E865656D723</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2D541655EC23042CE143594904022D6E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F319D4F311114F0733F777DF16F96430</key>
-		<dict>
-			<key>fileRef</key>
-			<string>506C646E486DAE28E7CD8CD4DD6E914E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>F68CB7F578C789894C31DDCFDCBDCB2E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>CATransaction+TransactionWithAnimationsAndCompletion.m</string>
-			<key>path</key>
-			<string>FoldingTabBar/Category/CATransaction/CATransaction+TransactionWithAnimationsAndCompletion/CATransaction+TransactionWithAnimationsAndCompletion.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F71BAD3AB1E85C78D594828526C960A9</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>EA74C7D5D34DFC8C25B79ED5E67E475D</string>
-			<key>buildPhases</key>
-			<array>
-				<string>D9FF8F54F43CCC370ADD5E8F22D6E63B</string>
-				<string>DFFEAACC6817E6D05BC9FE7FCDB85716</string>
-				<string>6D83BC0C7AA911E530C37CEC3AE17348</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>FoldingTabBar</string>
-			<key>productName</key>
-			<string>FoldingTabBar</string>
-			<key>productReference</key>
-			<string>6776173460FD9C41486C3F14BFFE8A6E</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>F854B2D6B4C1F48284959888F168DB18</key>
-		<dict>
-			<key>fileRef</key>
-			<string>67BA50C593316D644363121C2CE9B059</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F88BC03B03F259BD6A0B88E10F63CCA9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>054591B1E9067403FA39CAE25A032880</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F9956768E1279675B50C52B16466F531</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>2AE0EF989AF08DA78884E2A1F391C0F8</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>FB45FFD90572718D82AB9092B750F0CA</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>RELEASE=1</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>SYMROOT</key>
-				<string>${SRCROOT}/../build</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>FC65CD1D539098F03083A42D7EEFA17E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>YALCustomHeightTabBar.m</string>
-			<key>path</key>
-			<string>FoldingTabBar/View/CustomHeightTabBar/YALCustomHeightTabBar.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FDB3E9D6D47DADDC502BD66C1D33D3A8</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>F71BAD3AB1E85C78D594828526C960A9</string>
-			<key>remoteInfo</key>
-			<string>FoldingTabBar</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>D41D8CD98F00B204E9800998ECF8427E</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		147703FEF8502EA0AEA3085878F6DC9F /* UIViewController+CYLTabBarControllerExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 8279C2213631534D18C5736F79B21ADC /* UIViewController+CYLTabBarControllerExtention.m */; };
+		32CD193A30FC557885E42739D44646B2 /* Pods-GIFMoment-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 20BD25E1754BCDB23AD8DE88CDAEE3A6 /* Pods-GIFMoment-dummy.m */; };
+		3511A9697C2A854725640A94ADF3E686 /* CYLPlusButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D81B22E8602C344EE31B803B03B429 /* CYLPlusButton.m */; };
+		40783489BCCB0CCD5B22CA74552527E4 /* CYLTabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = DECE2E705E41AC34433A5BA8D079A014 /* CYLTabBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72E1F9F7F039816169BA804F2B80C69B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		78BFBC9BC7DE195ED99820B1951CC73A /* UIViewController+CYLTabBarControllerExtention.h in Headers */ = {isa = PBXBuildFile; fileRef = B1F1563D5E6521E78A23F1735AB12D75 /* UIViewController+CYLTabBarControllerExtention.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A65E5B5CE66285DEAA04F1CEA17933D6 /* CYLTabBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = 92310618FF4B1F3C875E82AD48F8C6EA /* CYLTabBarController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF10BE85DAB29AC60B524D4B7C2901C4 /* CYLTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 750F2090917130502967D2B33DAD2FBA /* CYLTabBar.m */; };
+		B2EC6595D934DD4426D7B04230030E40 /* CYLTabBarController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 489887A5C79B11C58A3542A33DACE3A9 /* CYLTabBarController-dummy.m */; };
+		D302F6F778101CF7A04AEEBDD9C3CF69 /* CYLTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 976292E24308127D86B73B87822E93FA /* CYLTabBarController.m */; };
+		F319D4F311114F0733F777DF16F96430 /* CYLPlusButton.h in Headers */ = {isa = PBXBuildFile; fileRef = C03F2E867F0B7953B4857D1EF0D23B01 /* CYLPlusButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F425C195FA664D68F0F26FAD75FECFE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF17D587D1ED37905BD9C6C0CF14744B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09846A0F46988573DAEDDD6B55466BEA;
+			remoteInfo = CYLTabBarController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1EC5DA289B5F5AB6559872116D5505E1 /* CYLTabBarController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CYLTabBarController-prefix.pch"; sourceTree = "<group>"; };
+		20BD25E1754BCDB23AD8DE88CDAEE3A6 /* Pods-GIFMoment-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GIFMoment-dummy.m"; sourceTree = "<group>"; };
+		26BDA104875C905E6485F779E5244757 /* Pods-GIFMoment-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GIFMoment-frameworks.sh"; sourceTree = "<group>"; };
+		29656AF3F3B1F4B63A86CF81C9ECA7A8 /* libCYLTabBarController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCYLTabBarController.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		489887A5C79B11C58A3542A33DACE3A9 /* CYLTabBarController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CYLTabBarController-dummy.m"; sourceTree = "<group>"; };
+		630B6C0077505A8F48422269FA53B023 /* CYLTabBarController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CYLTabBarController.xcconfig; sourceTree = "<group>"; };
+		750F2090917130502967D2B33DAD2FBA /* CYLTabBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYLTabBar.m; path = CYLTabBarController/CYLTabBar.m; sourceTree = "<group>"; };
+		8279C2213631534D18C5736F79B21ADC /* UIViewController+CYLTabBarControllerExtention.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+CYLTabBarControllerExtention.m"; path = "CYLTabBarController/UIViewController+CYLTabBarControllerExtention.m"; sourceTree = "<group>"; };
+		92310618FF4B1F3C875E82AD48F8C6EA /* CYLTabBarController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYLTabBarController.h; path = CYLTabBarController/CYLTabBarController.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96D81B22E8602C344EE31B803B03B429 /* CYLPlusButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYLPlusButton.m; path = CYLTabBarController/CYLPlusButton.m; sourceTree = "<group>"; };
+		976292E24308127D86B73B87822E93FA /* CYLTabBarController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYLTabBarController.m; path = CYLTabBarController/CYLTabBarController.m; sourceTree = "<group>"; };
+		9950238969A40B0F38F955A4F9A36A3C /* Pods-GIFMoment-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GIFMoment-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9974C0A97CF631E056856313CA929CC8 /* Pods-GIFMoment-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GIFMoment-resources.sh"; sourceTree = "<group>"; };
+		A50F4C6AF83EAB951538FDF31EDDC03F /* Pods-GIFMoment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GIFMoment.debug.xcconfig"; sourceTree = "<group>"; };
+		B1F1563D5E6521E78A23F1735AB12D75 /* UIViewController+CYLTabBarControllerExtention.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+CYLTabBarControllerExtention.h"; path = "CYLTabBarController/UIViewController+CYLTabBarControllerExtention.h"; sourceTree = "<group>"; };
+		C03F2E867F0B7953B4857D1EF0D23B01 /* CYLPlusButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYLPlusButton.h; path = CYLTabBarController/CYLPlusButton.h; sourceTree = "<group>"; };
+		C88704EEC76539A631170191ED025644 /* Pods-GIFMoment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GIFMoment.release.xcconfig"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DAE986621695453FB88D4D66AA899AE5 /* libPods-GIFMoment.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GIFMoment.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD71A8C3C3CB0718A97DC791D376C09A /* Pods-GIFMoment-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GIFMoment-acknowledgements.plist"; sourceTree = "<group>"; };
+		DECE2E705E41AC34433A5BA8D079A014 /* CYLTabBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYLTabBar.h; path = CYLTabBarController/CYLTabBar.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42E40FBA6B53EB495ED3DF2F82C4E615 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72E1F9F7F039816169BA804F2B80C69B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B06589E7B65CAA3BC544F9BB75A7EC57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F425C195FA664D68F0F26FAD75FECFE3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00CF1575F6CCF65F2EAD995BA666680E /* CYLTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				C03F2E867F0B7953B4857D1EF0D23B01 /* CYLPlusButton.h */,
+				96D81B22E8602C344EE31B803B03B429 /* CYLPlusButton.m */,
+				DECE2E705E41AC34433A5BA8D079A014 /* CYLTabBar.h */,
+				750F2090917130502967D2B33DAD2FBA /* CYLTabBar.m */,
+				92310618FF4B1F3C875E82AD48F8C6EA /* CYLTabBarController.h */,
+				976292E24308127D86B73B87822E93FA /* CYLTabBarController.m */,
+				B1F1563D5E6521E78A23F1735AB12D75 /* UIViewController+CYLTabBarControllerExtention.h */,
+				8279C2213631534D18C5736F79B21ADC /* UIViewController+CYLTabBarControllerExtention.m */,
+				F8E912FE16030464C17B53C0C652FD24 /* Support Files */,
+			);
+			path = CYLTabBarController;
+			sourceTree = "<group>";
+		};
+		1146D593BED614FF745457A590C8E0F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29656AF3F3B1F4B63A86CF81C9ECA7A8 /* libCYLTabBarController.a */,
+				DAE986621695453FB88D4D66AA899AE5 /* libPods-GIFMoment.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4279BF7492BCA3DB2F898E70A837B499 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				90494DED2C1E474C1FED2BEA8175A969 /* Pods-GIFMoment */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				8948AE2F9DBD17A56712650DA89DDE6B /* Pods */,
+				1146D593BED614FF745457A590C8E0F7 /* Products */,
+				4279BF7492BCA3DB2F898E70A837B499 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8948AE2F9DBD17A56712650DA89DDE6B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				00CF1575F6CCF65F2EAD995BA666680E /* CYLTabBarController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		90494DED2C1E474C1FED2BEA8175A969 /* Pods-GIFMoment */ = {
+			isa = PBXGroup;
+			children = (
+				9950238969A40B0F38F955A4F9A36A3C /* Pods-GIFMoment-acknowledgements.markdown */,
+				DD71A8C3C3CB0718A97DC791D376C09A /* Pods-GIFMoment-acknowledgements.plist */,
+				20BD25E1754BCDB23AD8DE88CDAEE3A6 /* Pods-GIFMoment-dummy.m */,
+				26BDA104875C905E6485F779E5244757 /* Pods-GIFMoment-frameworks.sh */,
+				9974C0A97CF631E056856313CA929CC8 /* Pods-GIFMoment-resources.sh */,
+				A50F4C6AF83EAB951538FDF31EDDC03F /* Pods-GIFMoment.debug.xcconfig */,
+				C88704EEC76539A631170191ED025644 /* Pods-GIFMoment.release.xcconfig */,
+			);
+			name = "Pods-GIFMoment";
+			path = "Target Support Files/Pods-GIFMoment";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F8E912FE16030464C17B53C0C652FD24 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				630B6C0077505A8F48422269FA53B023 /* CYLTabBarController.xcconfig */,
+				489887A5C79B11C58A3542A33DACE3A9 /* CYLTabBarController-dummy.m */,
+				1EC5DA289B5F5AB6559872116D5505E1 /* CYLTabBarController-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CYLTabBarController";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		17651DB5DCD07DC51D6FB6C6AB8B5C8C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F319D4F311114F0733F777DF16F96430 /* CYLPlusButton.h in Headers */,
+				40783489BCCB0CCD5B22CA74552527E4 /* CYLTabBar.h in Headers */,
+				A65E5B5CE66285DEAA04F1CEA17933D6 /* CYLTabBarController.h in Headers */,
+				78BFBC9BC7DE195ED99820B1951CC73A /* UIViewController+CYLTabBarControllerExtention.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		09846A0F46988573DAEDDD6B55466BEA /* CYLTabBarController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1FF58A861FDB446CB469EC1E5262EB7 /* Build configuration list for PBXNativeTarget "CYLTabBarController" */;
+			buildPhases = (
+				8CAAF2F09BE3E16D2352E5A52DFB36D3 /* Sources */,
+				B06589E7B65CAA3BC544F9BB75A7EC57 /* Frameworks */,
+				17651DB5DCD07DC51D6FB6C6AB8B5C8C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CYLTabBarController;
+			productName = CYLTabBarController;
+			productReference = 29656AF3F3B1F4B63A86CF81C9ECA7A8 /* libCYLTabBarController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		69D5DBC244429BF7C8694BBC58EF3AC7 /* Pods-GIFMoment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2ADA1035B2ED5F35B17F0DC53B535B58 /* Build configuration list for PBXNativeTarget "Pods-GIFMoment" */;
+			buildPhases = (
+				4D2C3021F36F79764631853413FC73EB /* Sources */,
+				42E40FBA6B53EB495ED3DF2F82C4E615 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5A1518CBE347C7B9B84F3DA8FC92A63 /* PBXTargetDependency */,
+			);
+			name = "Pods-GIFMoment";
+			productName = "Pods-GIFMoment";
+			productReference = DAE986621695453FB88D4D66AA899AE5 /* libPods-GIFMoment.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 1146D593BED614FF745457A590C8E0F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09846A0F46988573DAEDDD6B55466BEA /* CYLTabBarController */,
+				69D5DBC244429BF7C8694BBC58EF3AC7 /* Pods-GIFMoment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D2C3021F36F79764631853413FC73EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32CD193A30FC557885E42739D44646B2 /* Pods-GIFMoment-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CAAF2F09BE3E16D2352E5A52DFB36D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3511A9697C2A854725640A94ADF3E686 /* CYLPlusButton.m in Sources */,
+				AF10BE85DAB29AC60B524D4B7C2901C4 /* CYLTabBar.m in Sources */,
+				B2EC6595D934DD4426D7B04230030E40 /* CYLTabBarController-dummy.m in Sources */,
+				D302F6F778101CF7A04AEEBDD9C3CF69 /* CYLTabBarController.m in Sources */,
+				147703FEF8502EA0AEA3085878F6DC9F /* UIViewController+CYLTabBarControllerExtention.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C5A1518CBE347C7B9B84F3DA8FC92A63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CYLTabBarController;
+			target = 09846A0F46988573DAEDDD6B55466BEA /* CYLTabBarController */;
+			targetProxy = DF17D587D1ED37905BD9C6C0CF14744B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		20B68641FA3E273D717BBDB548773EB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A50F4C6AF83EAB951538FDF31EDDC03F /* Pods-GIFMoment.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		28F42DB566E1921311A6CAB149958846 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C88704EEC76539A631170191ED025644 /* Pods-GIFMoment.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		47BEF9D903506B003EA5C2B249729489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		60A8DE9CB3822210D0E09EA88E14A9DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 630B6C0077505A8F48422269FA53B023 /* CYLTabBarController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CYLTabBarController/CYLTabBarController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		844CFBFBFDA8167E49A512008778372F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 630B6C0077505A8F48422269FA53B023 /* CYLTabBarController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CYLTabBarController/CYLTabBarController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AAF678CED40D3499169D10F63CA0719E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2ADA1035B2ED5F35B17F0DC53B535B58 /* Build configuration list for PBXNativeTarget "Pods-GIFMoment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20B68641FA3E273D717BBDB548773EB1 /* Debug */,
+				28F42DB566E1921311A6CAB149958846 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47BEF9D903506B003EA5C2B249729489 /* Debug */,
+				AAF678CED40D3499169D10F63CA0719E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1FF58A861FDB446CB469EC1E5262EB7 /* Build configuration list for PBXNativeTarget "CYLTabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				844CFBFBFDA8167E49A512008778372F /* Debug */,
+				60A8DE9CB3822210D0E09EA88E14A9DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
